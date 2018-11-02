@@ -1,8 +1,6 @@
 # Site/SEO settings
 email: duncan@duncanschouten.com
 baseurl: ""
-paginate: 12
-paginate_path: "/page/:num"
 permalink: /:year/:month/:day/:title/
 google_analytics:
 
@@ -20,6 +18,16 @@ social:
   - name: github
     url: https://github.com/duncanschouten
 
+# Plugin: Pagination (jekyll-paginate-v2)
+pagination:
+  enabled      : true
+  debug        : false
+  per_page     : 15
+  permalink    : "/page/:num/"
+  title        : ":title - Page :num of :max"
+  limit        : 0
+  sort_field   : "date"
+  sort_reverse : true
 
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
@@ -55,7 +63,7 @@ defaults:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate-v2
+  - [jekyll-paginate-v2]
   - jekyll-sitemap
 compress_html:
   clippings: all
