@@ -18,5 +18,3 @@ fields:
   type: file
   hidden: false
   default: ''
-pages:
-- _works/100-dinners.md
