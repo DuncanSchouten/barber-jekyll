@@ -1,6 +1,5 @@
 ---
 layout: post
-pagination: enabled
 title: "Cecil Green Park House"
 date: 2018-11-01
 description: Project Management, Research, Branding, Design
@@ -9,7 +8,7 @@ author: Duncan Schouten
 tags:
   - Dummy Text
   - Moon Drinking
-  - Kale  
+  - Kale
 ---
 
 ### Overview
