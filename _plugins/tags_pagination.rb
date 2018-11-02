@@ -1,8 +1,9 @@
+=begin
 module Jekyll
 
   class TagGenerator < Generator
     safe true
-    
+
     def generate(site)
       if site.layouts.key? "tag"
         site.tags.keys.each do |tag|
@@ -38,7 +39,7 @@ module Jekyll
     end
   end
 
-  class TagPager < Jekyll::Paginate::Pager 
+  class TagPager < Jekyll::Paginate::Pager
     attr_reader :tag
 
     def initialize(site, page, all_posts, tag, num_pages = nil)
@@ -56,3 +57,4 @@ module Jekyll
   end
 
 end
+=end

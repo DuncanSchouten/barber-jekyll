@@ -1,5 +1,7 @@
 ---
 layout: compress
+pagination:
+  enabled: true
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -9,13 +11,13 @@ layout: compress
 
 </head>
 <body id="{% if page.title %}{{ page.title | slugify }}{% else %}home{% endif %}" class="{{ page.layout | downcase }}-layout">
-  
+
   {% include header.html %}
 
   <main class="💈">
 
     {{ content }}
-    
+
   </main>
 
   {% include footer.html %}

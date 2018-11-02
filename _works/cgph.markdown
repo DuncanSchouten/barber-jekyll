@@ -2,7 +2,7 @@
 layout: page
 title: "Cecil Green Park House"
 date: 2018-11-01
-description: Project Management, Research, Branding, Design
+description: Project Management, Research, Branding, Design, Interpretive Dance
 image: /assets/images/placeholder-9.jpg#full
 author: Duncan Schouten
 tags:
