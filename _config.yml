@@ -22,7 +22,6 @@ social:
 pagination:
   enabled      : true
   debug        : false
-  collections  : 'posts'
   per_page     : 15
   permalink    : "/page/:num/"
   title        : ":title - Page :num of :max"
@@ -30,8 +29,19 @@ pagination:
   sort_field   : "date"
   sort_reverse : true
 
+# Plugin: Auto Pages (jekyll-paginate-v2)
 autopages:
-  enabled      : false
+  enabled      : true
+  categories:
+    enabled    : false
+  collections:
+    enabled    : false
+  tags:
+    enabled    : true
+    layouts:
+      - "autopage_tags.html"
+    title      : ":tag" # :tag is replaced by the tag name
+    permalink  : "/tag/:tag"
 
 
 # Contact settings
