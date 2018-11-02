@@ -7,7 +7,7 @@ permalink: /:year/:month/:day/:title/
 google_analytics:
 
 name: Duncan Schouten
-title: Portfolio 2018
+title: Duncan Schouten
 description: >
   Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
 url: https://www.duncanschouten.com
