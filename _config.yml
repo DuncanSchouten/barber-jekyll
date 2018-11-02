@@ -42,10 +42,8 @@ author:
 collections:
   works:
     output: true
-    permalink: /:collection/:path/
 
 defaults:
-  # _works
   - scope:
       path: ""
       type: "works"
