@@ -2,7 +2,7 @@
 layout: post
 title: "Cecil Green Park House"
 date: 2018-11-01
-description: Research, Branding, Design
+description: Project Management, Research, Branding, Design
 image: /assets/images/placeholder-9.jpg
 author: Duncan Schouten
 tags:
@@ -17,7 +17,16 @@ Cecil Green Park House—a well-known Vancouver event venue—was facing a multi
 While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I first helped to clarify the venue's business goals, brand identity, target audiences, and local competition. Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, a fully-reimagined online booking process, and guidelines for both the brand look and feel and its overall tone of voice.
 
 ### My role
-My role in the project was multifaceted, encompassing business analysis, experience design, and project management. Working with cross-functional teams, I led activities to: research and identify business and technical requirements; define brand identity; establish guidelines for the brand’s visual appearance and tone of voice; construct the website’s information architecture; wireframe, prototype, and design the website’s front-end; test and evaluate generated ideas; write copy for the website; and build an analytic framework using Google Analytics and Google Tag Manager; and take the site through testing and launch.
+My role in the project was multifaceted, encompassing business analysis, experience design, and project management. Working with cross-functional teams, I led activities to:
+* research and identify business and technical requirements
+* define brand identity
+* establish guidelines for the brand’s visual appearance and tone of voice
+* construct the website’s information architecture
+* wireframe, prototype, and design the website’s front-end
+* test and evaluate generated ideas
+* write copy for the website
+* build an analytic framework using Google Analytics and Google Tag Manage;
+* take the site through testing and launch.
 
 ### Global challenge: no resources for research or testing
 I was brought into the project several years after stakeholders initially identified the need for a website update. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
