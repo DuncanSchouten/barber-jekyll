@@ -12,10 +12,6 @@ gem "jekyll", "~> 3.6.3"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-<<<<<<< HEAD
-=======
-  gem "jekyll-paginate"
->>>>>>> parent of 7be20e8... Testing paginate-v2
   gem "jekyll-sitemap"
   gem "jekyll-paginate-v2"
 end
