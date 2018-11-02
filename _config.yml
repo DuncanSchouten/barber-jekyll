@@ -18,8 +18,6 @@ social:
   - name: github
     url: https://github.com/duncanschouten
 
-gems: [jekyll-paginate-v2]
-
 # Plugin: Pagination (jekyll-paginate-v2)
 pagination:
   enabled      : true
@@ -65,7 +63,7 @@ defaults:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate-v2
+  - [jekyll-paginate-v2]
   - jekyll-sitemap
 compress_html:
   clippings: all
