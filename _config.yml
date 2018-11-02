@@ -65,7 +65,7 @@ defaults:
 # Build settings
 markdown: kramdown
 plugins:
-  - jekyll-paginate-v2
+  - jekyll-paginate
   - jekyll-sitemap
 compress_html:
   clippings: all
