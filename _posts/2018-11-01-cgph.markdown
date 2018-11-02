@@ -28,7 +28,7 @@ My role in the project was multifaceted, encompassing business analysis, experie
 * build an analytic framework using Google Analytics and Google Tag Manage;
 * take the site through testing and launch.
 
-{% include navigation.html %}
+{% include markup-styles/callout--fullWidth.html headline="Testing" %}
 
 ### Global challenge: no resources for research or testing
 I was brought into the project several years after stakeholders initially identified the need for a website update. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
