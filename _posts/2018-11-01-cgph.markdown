@@ -1,6 +1,7 @@
 ---
 layout: post
-pagination: enabled
+pagination:
+  enabled: true
 title: "Cecil Green Park House"
 date: 2018-11-01
 description: Project Management, Research, Branding, Design
