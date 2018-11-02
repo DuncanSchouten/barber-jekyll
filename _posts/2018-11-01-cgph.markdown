@@ -44,7 +44,8 @@ When I was brought onto the project as the sole in-house designer, the limit of 
 
 Through ongoing discussions with key stakeholders, I built a case and secured support for re-evaluating not just its website, but the Cecil Green Park House business strategy and brand identity as a whole.
 
-### Research and Discovery
+{% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
+
 #### Defining business goals
 The discovery process began with a series of interviews and workshops with staff and stakeholders. After getting acquainted with the venue’s history, the first step in my research was to clarify the long-term goals of the business:
 
