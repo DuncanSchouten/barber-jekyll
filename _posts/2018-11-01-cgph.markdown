@@ -28,14 +28,13 @@ My role in the project was multifaceted, encompassing business analysis, experie
 * build an analytic framework using Google Analytics and Google Tag Manage;
 * take the site through testing and launch.
 
-{% include markup-styles/callout--fullWidth.html headline="Testing" %}
-
 ### Global challenge: no resources for research or testing
 I was brought into the project several years after stakeholders initially identified the need for a website update. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
 
 Nonetheless, I incorporated as much research and testing into my process as was possible, operating on the principle that some data is better than none.
 
-### Context
+{% include markup-styles/callout--fullWidth.html headline="Context" %}
+
 #### Background
 In the five years since its last major revision, the Cecil Green Park House website had become an active impediment to marketing initiatives for the venue. Its overall look and feel was outdated; there was little consistency in the messaging or brand voice; and the site provided limited information relevant to those looking to book business events, though these clients had been identified as a key market segment. Most critically, numerous usability issues contributed to a frustrating user experience, reflected in the significant drop-off rates of visitors attempting to utilize the site's core operational function: making a request to book the venue. As one of alumni UBC’s key sources of revenue, CGPH required a website update that would fully address these concerns and ensure the venue’s long-term profitability.
 
