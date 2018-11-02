@@ -17,7 +17,9 @@ Cecil Green Park House—a well-known Vancouver event venue—was facing a multi
 While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I first helped to clarify the venue's business goals, brand identity, target audiences, and local competition. Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, a fully-reimagined online booking process, and guidelines for both the brand look and feel and its overall tone of voice.
 
 ### My role
-My role in the project was multifaceted, encompassing business analysis, experience design, and project management. Working with cross-functional teams, I led activities to:
+I worked on this project as **business analyst, lead designer,** and **product manager.**
+
+Main areas of responsibility:
 * research and identify business and technical requirements
 * define brand identity
 * establish guidelines for the brand’s visual appearance and tone of voice

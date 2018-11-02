@@ -68,7 +68,7 @@ autopages:
   enabled: true
 
 name: Duncan Schouten
-title: Duncan Schouten
+title: Home
 description: >
   Barber is a blog theme for Jekyll built by Thomas Vaeth for Samesies using HTML, Sass, and JavaScript.
 url: https://www.duncanschouten.com
@@ -95,9 +95,9 @@ mailchimp_input: b_66ddf555dab480e6a8606430b_89b3ee034f
 
 # Author settings
 author:
-  - name: Thomas Vaeth
+  - name: Duncan Schouten
     bio: Thomas Vaeth was born in New York, raised in Pennsylvania, and transplanted in Washington. He was a Web Developer at Urban Influence, but now he's a Software Engineer at Getty Images.
-    url: http://thomasvaeth.com
+    url: http://duncanschouten.com
 
 # Collections
 collections:
