@@ -3,7 +3,7 @@ layout: post
 title: "Cecil Green Park House"
 date: 2018-11-01
 description: Project Management, Research, Branding, Design
-image: /assets/images/placeholder-9.jpg
+image: /assets/images/placeholder-9.jpg#full
 author: Duncan Schouten
 tags:
   - Dummy Text
