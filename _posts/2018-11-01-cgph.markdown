@@ -84,7 +84,7 @@ In general, the average site visitor was:
 These results, by in large, also supported the information provided by venue staff and gave added weight to the utility of the provisional personas in guiding design decisions.
 
 #### Heuristic analysis of original site
-I completed my research with a heuristic analysis of the original website, using a 247-point checklist found here: https://www.userfocus.co.uk/resources/guidelines.html.
+I completed my research with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
 
 While not a substitute for user-testing, heuristic analyses offer valuable insights on a website’s usability as measured against a set of predetermined qualitative guidelines. While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
