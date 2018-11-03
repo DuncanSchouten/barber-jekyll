@@ -1,3 +1,5 @@
+livereload: true
+
 # Site/SEO settings
 email: duncan@duncanschouten.com
 baseurl: ""
@@ -65,7 +67,7 @@ pagination:
 ############################################################
 
 autopages:
-  enabled: true
+  enabled: false
 
 name: Duncan Schouten
 title: Home
