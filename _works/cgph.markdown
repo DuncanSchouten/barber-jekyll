@@ -91,12 +91,13 @@ I completed my research with a heuristic analysis of the original website, using
 
 While not a substitute for user-testing, heuristic analyses offer valuable insights on a website’s usability as measured against a set of predetermined qualitative guidelines. While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
-> #### Areas for improvement
+#### Areas for improvement
+
 [TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
 
 
 
-{% include markup-styles/callout--fullWidth.html headline="Branding" %}
+{% include markup-styles/callout--fullWidth.html headline="Brandingp" %}
 
 #### A “just enough” approach
 With a condensed working window, we adopted a “just enough” approach to defining the brand. Some elements of the original identity, such as the logo, were deemed acceptable for ongoing use, while other aspects were found to be in need of clarification.
@@ -130,28 +131,30 @@ We identified several key areas of focus for the new website, along with metrics
 <table rules="groups">
   <thead>
     <tr>
-      <th style="text-align: left">Goal</th>
-      <th style="text-align: center">Metric</th>
+      <th style="text-align: left;">Goal</th>
+      <th style="text-align: left;">Metric</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: left">Simplify the site information architecture and navigation</td>
-      <td style="text-align: center">Bounce rate</td>
+      <td>Simplify the site information architecture and navigation</td>
+      <td>Bounce rate</td>
     </tr>
     <tr>
-      <td style="text-align: left">Improve the online booking request system</td>
-      <td style="text-align: center">Total number of booking requests</td>
-    </tr>
-  </tbody>
-  <tbody>
-    <tr>
-      <td style="text-align: left">Enhance the site-wide mobile experience</td>
-      <td style="text-align: center">cell2</td>
+      <td>Improve the online booking request system</td>
+      <td>Total number of booking requests</td>
     </tr>
     <tr>
-      <td style="text-align: left">Strengthen appeal to business clientele</td>
-      <td style="text-align: center">cell5</td>
+      <td>Enhance the site-wide mobile experience</td>
+      <td>Number of unique visitors on mobile or tablet devices</td>
+    </tr>
+    <tr>
+      <td>Strengthen appeal to business clientele</td>
+      <td>Number of booking requests for business or non-wedding events</td>
+    </tr>
+    <tr>
+      <td>Improve the photo gallery system</td>
+      <td>Total number of unique visitors to photo gallery directory</td>
     </tr>
   </tbody>
 </table>
