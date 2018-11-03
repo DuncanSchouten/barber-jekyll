@@ -66,7 +66,7 @@ Early in the project, I established a spreadsheet documenting the most salient i
 
 * Fragment of competitive research
 
-#### Who do we think are the users?
+#### Who do we *think* are the users?
 Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches to identify the business’s core audiences. Interviews with venue staff—the business’s primary client liaisons—were critical to providing initial demographic data on the primary audiences. This flowed naturally into a workshop with staff and stakeholders where we defined several provisional/hypothetical user personas, including details on their pain points; their needs, wants, and goals; and on what the venue needed to do to ensure their satisfaction.
 
 * Show provisional persona
@@ -75,7 +75,7 @@ For our main provisional personas, we developed hypothetical journey maps.
 
 * Show provisional journey map
 
-#### What do we know about the users?
+#### What do we *know* about the users?
 The final step in my audience discovery process was to review Google Analytics data from the original website. While this came with a known bias of only providing insight on the performance of existing content—rather than on identifying unmet user needs—it did shed light on the demographic makeup, interests, and behavioural patterns of site visitors.
 
 In general, the average site visitor was:
@@ -90,3 +90,68 @@ These results, by in large, also supported the information provided by venue sta
 I completed my research with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
 
 While not a substitute for user-testing, heuristic analyses offer valuable insights on a website’s usability as measured against a set of predetermined qualitative guidelines. While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
+
+> #### Areas for improvement
+[TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
+
+
+
+{% include markup-styles/callout--fullWidth.html headline="Branding" %}
+
+#### A “just enough” approach
+With a condensed working window, we adopted a “just enough” approach to defining the brand. Some elements of the original identity, such as the logo, were deemed acceptable for ongoing use, while other aspects were found to be in need of clarification.
+
+Through a series of facilitated workshops and discussions, I helped venue staff and stakeholders distill core aspects of the brand’s  [features, benefits, emotional reward, and personality], while still leaving room for further refinement in the future. The results of our efforts were captured in a “brand pyramid” diagram:
+
+* Show brand pyramid
+
+In the end, a single-word statement came to represent the essence of the brand and the experiences it offers: incomparable.
+
+#### Look and feel
+After several iterations, we arrived on a look and feel that emphasized whitespace, a colour palette inspired by coastal gardens, and an emphasis on big, bold imagery that highlights both the natural beauty of the space and the people that give it life.
+
+* Show style tile
+
+#### Tone of voice
+The brand voice is warm and welcoming, guided by the idea that “the house is old, the audience isn’t.” Working in tandem with the imagery, we evoke the unique sensory experiences found across the house grounds.
+
+* Show page 1 of the writing style guide
+
+> ####Areas for improvement
+* Define and test parameters for brand perception
+
+{% include markup-styles/callout--fullWidth.html headline="Website Design" %}
+
+#### Defining website goals
+With the business goals, provisional audience definitions, and brand identity now sufficiently established, I felt more confident in approaching the original impetus of the project: redesigning the Cecil Green Park House website.
+
+We identified several key areas of focus for the new website, along with metrics to track their success:
+
+<table rules="groups">
+  <thead>
+    <tr>
+      <th style="text-align: left">Goal</th>
+      <th style="text-align: center">Metric</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Simplify the site information architecture and navigation</td>
+      <td style="text-align: center">Bounce rate</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Improve the online booking request system</td>
+      <td style="text-align: center">Total number of booking requests</td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Enhance the site-wide mobile experience</td>
+      <td style="text-align: center">cell2</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Strengthen appeal to business clientele</td>
+      <td style="text-align: center">cell5</td>
+    </tr>
+  </tbody>
+</table>
