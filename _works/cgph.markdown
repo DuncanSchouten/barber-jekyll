@@ -23,7 +23,7 @@ Then, using a human-centered design approach and validating assumptions wherever
 
 I worked on this project as **business analyst, lead designer,** and **product manager.**
 
-#### Main areas of responsibility:
+##### Main areas of responsibility:
 
 * research and identify business and technical requirements
 * define brand identity
@@ -56,7 +56,7 @@ The discovery process began with a series of interviews and workshops with staff
 * Increase number of UBC bookings
 * Keep number of bookings for TV/movie filming at current pace
 
-#### SWOT analysis
+##### SWOT analysis
 Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats (a.k.a. SWOT):
 
 * Show SWOT analysis (obscured as necessary)
@@ -71,11 +71,11 @@ Early in the project, I established a spreadsheet documenting the most salient i
 
 Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches to identify the business’s core audiences. Interviews with venue staff—the business’s primary client liaisons—were critical to providing initial demographic data on the primary audiences.
 
-This flowed naturally into a workshop with staff and stakeholders where we defined several provisional user personas, including details on their pain points; on their needs, wants, and goals; and on what the venue could do to ensure their satisfaction.
+This flowed naturally into a workshop with staff and stakeholders where we defined several provisional user personas:
 
 * Show provisional persona
 
-For our main personas, we developed provisional journey maps:
+For our main personas, we also developed provisional journey maps:
 
 * Show provisional journey map
 
@@ -83,7 +83,7 @@ For our main personas, we developed provisional journey maps:
 
 The final step in my audience discovery process was to review Google Analytics data from the original website.
 
-#### The average site visitor was:
+##### The average site visitor was:
 
 * Female, age 25-34
 * Located in the greater Vancouver area
@@ -96,7 +96,9 @@ These data also supported the information provided by venue staff and gave added
 
 I completed my research with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
 
-While not a substitute for user-testing, heuristic analyses offer valuable insights on a website’s usability as measured against a set of predetermined qualitative guidelines. While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
+* Show heuristic analysis
+
+While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
 {::options parse_block_html="true" /}
 <div class="callout__red">
