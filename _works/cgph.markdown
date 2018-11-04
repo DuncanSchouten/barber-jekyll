@@ -15,13 +15,15 @@ tags:
 
 Cecil Green Park House—a well-known Vancouver event venue—was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
 
-While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I first helped to clarify the venue's business goals, brand identity, target audiences, and local competition. Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, a fully-reimagined online booking process, and guidelines for both the brand look and feel and its overall tone of voice.
+While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I first helped to clarify the venue's business goals, brand identity, target audiences, and local competition.
+
+Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, a fully-reimagined online booking process, and guidelines for both the brand look and feel and its overall tone of voice.
 
 ### My role
 
 I worked on this project as **business analyst, lead designer,** and **product manager.**
 
-Main areas of responsibility:
+#### Main areas of responsibility:
 
 * research and identify business and technical requirements
 * define brand identity
@@ -33,11 +35,15 @@ Main areas of responsibility:
 * build an analytic framework using Google Analytics and Google Tag Manage;
 * take the site through testing and launch.
 
-### Global challenge: no resources for research or testing
+{::options parse_block_html="true" /}
+<div class="callout__warning">
+### Challenge: no resources for research or testing
 
-I was brought into the project several years after stakeholders initially identified the need for a website update. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
+I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
 
 Nonetheless, I incorporated as much research and testing into my process as was possible, operating on the principle that some data is better than none.
+</div>
+
 
 {% include markup-styles/callout--fullWidth.html headline="Context" %}
 
@@ -53,7 +59,7 @@ Through ongoing discussions with key stakeholders, I built a case and secured su
 
 {% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
 
-#### Defining business goals
+#### Business goals
 
 The discovery process began with a series of interviews and workshops with staff and stakeholders. After getting acquainted with the venue’s history, the first step in my research was to clarify the long-term goals of the business:
 
@@ -67,15 +73,17 @@ Next, I undertook a top-level analysis of the business’s strengths, weaknesses
 
 * Show SWOT analysis (obscured as necessary)
 
-#### Identifying competitors
+#### Competitive research
 
 Early in the project, I established a spreadsheet documenting the most salient information on the venue’s local competition. In conjunction with the SWOT analysis, this helped to pinpoint areas where Cecil Green Park House could set itself apart:
 
-![](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
+![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
 
 #### Who do we _think_ are the users?
 
-Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches to identify the business’s core audiences. Interviews with venue staff—the business’s primary client liaisons—were critical to providing initial demographic data on the primary audiences. This flowed naturally into a workshop with staff and stakeholders where we defined several provisional/hypothetical user personas, including details on their pain points; their needs, wants, and goals; and on what the venue needed to do to ensure their satisfaction.
+Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches to identify the business’s core audiences. Interviews with venue staff—the business’s primary client liaisons—were critical to providing initial demographic data on the primary audiences.
+
+This flowed naturally into a workshop with staff and stakeholders where we defined several provisional/hypothetical user personas, including details on their pain points; their needs, wants, and goals; and on what the venue needed to do to ensure their satisfaction.
 
 * Show provisional persona
 
@@ -102,18 +110,11 @@ I completed my research with a heuristic analysis of the original website, using
 
 While not a substitute for user-testing, heuristic analyses offer valuable insights on a website’s usability as measured against a set of predetermined qualitative guidelines. While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
-<<<<<<< HEAD
 #### Areas for improvement
 
 [TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
 
-=======
-> #### Areas for improvement
->>>>>>> ef4c5a0010ec4af759b6e79d8e141a705d5a8012
-
-\[TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION\]
-
-{% include markup-styles/callout--fullWidth.html headline="Brandingp" %}
+{% include markup-styles/callout--fullWidth.html headline="Branding" %}
 
 #### A “just enough” approach
 
@@ -150,7 +151,6 @@ With the business goals, provisional audience definitions, and brand identity no
 We identified several key areas of focus for the new website, along with metrics to track their success:
 
 <table rules="groups">
-<<<<<<< HEAD
   <thead>
     <tr>
       <th style="text-align: left;">Goal</th>
@@ -180,32 +180,3 @@ We identified several key areas of focus for the new website, along with metrics
     </tr>
   </tbody>
 </table>
-=======
-<thead>
-<tr>
-<th style="text-align: left">Goal</th>
-<th style="text-align: center">Metric</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left">Simplify the site information architecture and navigation</td>
-<td style="text-align: center">Bounce rate</td>
-</tr>
-<tr>
-<td style="text-align: left">Improve the online booking request system</td>
-<td style="text-align: center">Total number of booking requests</td>
-</tr>
-</tbody>
-<tbody>
-<tr>
-<td style="text-align: left">Enhance the site-wide mobile experience</td>
-<td style="text-align: center">cell2</td>
-</tr>
-<tr>
-<td style="text-align: left">Strengthen appeal to business clientele</td>
-<td style="text-align: center">cell5</td>
-</tr>
-</tbody>
-</table>
->>>>>>> ef4c5a0010ec4af759b6e79d8e141a705d5a8012
