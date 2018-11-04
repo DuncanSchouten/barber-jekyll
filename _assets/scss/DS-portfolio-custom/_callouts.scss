@@ -4,11 +4,11 @@
 .callout {
 
   &__red {
-    margin-left: -0.4em; 
+    margin-left: -0.4em;
     border-left: 0.2rem solid $color-CGPH-red;
     padding-left: .7em;
 
-    & p:last-child {
+    & ul, ol, p:last-child {
       margin-bottom: 0 !important;
     }
   }
