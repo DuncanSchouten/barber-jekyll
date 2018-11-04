@@ -36,7 +36,7 @@ I worked on this project as **business analyst, lead designer,** and **product m
 * take the site through testing and launch.
 
 {::options parse_block_html="true" /}
-<div class="callout__warning">
+<div class="callout__red">
 ### Challenge: no resources for research or testing
 
 I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
@@ -56,6 +56,7 @@ The discovery process began with a series of interviews and workshops with staff
 * Increase number of UBC bookings
 * Keep number of bookings for TV/movie filming at current pace
 
+#### SWOT analysis
 Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats (a.k.a. SWOT):
 
 * Show SWOT analysis (obscured as necessary)
@@ -66,7 +67,7 @@ Early in the project, I established a spreadsheet documenting the most salient i
 
 ![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
 
-### Provisional Personas
+### Provisional personas
 
 Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches to identify the business’s core audiences. Interviews with venue staff—the business’s primary client liaisons—were critical to providing initial demographic data on the primary audiences.
 
@@ -97,9 +98,12 @@ I completed my research with a heuristic analysis of the original website, using
 
 While not a substitute for user-testing, heuristic analyses offer valuable insights on a website’s usability as measured against a set of predetermined qualitative guidelines. While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
+{::options parse_block_html="true" /}
+<div class="callout__red">
 ### Areas for improvement
 
 [TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
+</div>
 
 {% include markup-styles/callout--fullWidth.html headline="Branding" %}
 
