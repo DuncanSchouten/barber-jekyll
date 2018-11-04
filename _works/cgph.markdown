@@ -19,6 +19,7 @@ While the project initially began as a visual refresh of the original website, i
 
 Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, a fully-reimagined online booking process, and guidelines for both the brand look and feel and its overall tone of voice.
 
+
 ### My role
 
 I worked on this project as **business analyst, lead designer,** and **product manager.**
@@ -83,14 +84,14 @@ For our main personas, we also developed provisional journey maps:
 
 The final step in my audience discovery process was to review Google Analytics data from the original website.
 
-##### The average site visitor was:
+##### The average visitor to the original site was:
 
 * Female, age 25-34
 * Located in the greater Vancouver area
 * Most interested in the photo gallery and wedding information pages
 * A first-time site visitor
 
-These data also supported the information provided by venue staff and gave added weight to the utility of the provisional personas in guiding design decisions.
+This data also supported the information provided by venue staff and gave added weight to the utility of the provisional personas in guiding design decisions.
 
 ### Heuristic analysis of original site
 
@@ -172,3 +173,83 @@ We identified several key areas of focus for the new website, along with metrics
     </tr>
   </tbody>
 </table>
+
+### Challenge #1 - Simplify the site information architecture and navigation
+
+##### Problem: complex original site architecture
+Despite the relatively small scale of the original site, a review of its information architecture revealed a surprising complex structure, with [an unintuitive navigation structure] [several pages very difficult to access or otherwise buried] and navigational labels not reflective of their underlying content:
+
+* Show original site map
+
+##### Solution: simplify, focusing on core user needs
+After presenting the original site map to venue staff and stakeholders and ascertaining that none had an interest in adding new content, all agreed that a simpler structure was needed. I then reviewed usage statistics in Google Analytics to determine the most popular pages of the original site and identify common user flows, giving insight on how to best organize the new information architecture.  
+
+Several principles guided my revised structure:
+* Give greater hierarchal prominence to high-performing sections of the original site.
+* Wherever possible, ensure that each page has the potential to support one or more business goals.
+* Ensure that essential information is in its most contextually relevant location, rather than grouped under a catch-all FAQ.
+* Label navigational elements and page titles according to the primary tasks, interests, and/or needs of the key audiences (e.g. “request booking”, “weddings”, “meetings and events”, etc.).
+* Remove pages only intended for confirmed clients (e.g. information on usage policies for the venue) from the global architecture and block these pages from search engines.
+* Create tailored, individual pages in cases where similar content is being served to multiple target audiences (e.g. information on preferred vendors for both weddings and business event), rather than sending all audiences to a single page with information irrelevant to their needs.
+* If the venue does not have the resources to ensure that they can regularly create and publish blog content, then remove this aspect of the site.
+* If possible, reduce the navigational hierarchy to no more than two levels (e.g. no third-tier navigational elements).
+
+* Show first and second (final) revisions.
+
+{::options parse_block_html="true" /}
+<div class="callout__red">
+### Opportunity for improvement
+While the revised site structure is relatively shallow, there is still potential for its improvement through card sorting exercises with users.
+</div>
+
+### Challenge #2 - Improve the online booking request system
+
+##### Problem: Visitors to the booking system had a high site drop-off rate, particularly on mobile
+Given the strong emphasis by all stakeholders on the goal of increasing venue bookings, the online booking request system is, perhaps, the website’s most important functional element. When conducting a heuristic analysis of the original website, however, this area emerged as my greatest concern in its overall usability. While visitors could easily initiate a booking request from almost any page, the process required them to first download a PDF file showing the venue’s current bookings, note their preferred date, and return to the request form. Beside the fact that users on mobile devices were particularly averse to this process (as verified in the drop-off rates recorded in Google Analytics analytics), the booking calendar file was only periodically updated—meaning that visitors often made requests for dates that had already been booked.
+
+Beyond this, maintaining the PDF calendar both required ongoing staff time, and introduced the potential for human error when manually transferring booking data from the backend system.
+
+##### Solution: Design and test a system for surfacing real-time booking data from the backend
+
+I consulted with venue staff to investigate the parameters of their backend booking system and ideate possible approaches. Eventually, we settled on the idea of devising a calendar interface that surfaced real-time booking information. This was further distilled to a few core parameters:
+
+Each date has three possible booking periods (morning, evening, and full-day)
+Calendar must visually differentiate between dates with partial and full-day bookings
+
+The breakthrough moment came when we discovered that, contrary to our initial concerns, the venue’s backend booking system had just enough API access to give us the necessary data. This lead to the first version of the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
+* Show calendar v1 (red/orange circles)
+
+In this case, users interested in dates with half-day bookings would first need to choose a date before seeing their options in the associated time picker:
+* Show time picker
+
+When presenting my proposed design to venue staff, they questioned the absence of key information from the interface. It emerged that an important specification was missed from the first iteration: the inclusion of tentative bookings (or “holds”), yet to be confirmed by clients but necessary to provide visitors with an accurate picture of the venue’s availability.
+
+To accommodate this, I revised my design to indicate dates with holds using crosshatching:
+* Show calendar v2 (red/orange circles w/ crosshatching)
+
+I took a prototype of this design to several individuals for “guerilla” user testing, asking them to perform several tasks and answer questions on the system’s functionality. Among the results, I found that:
+* Forcing users to first select a date before learning the availability of their preferred time slot added cognitive load to the process, particularly for mobile users.
+* Differentiating crosshatching from solid colours was difficult for some users with vision impairments.
+
+With this information, I revised my design to include complete details on each day’s booking availability using only solid, contrasting colours:
+* Show calendar v3 (final)
+
+After conducting another round of guerilla testing, no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.
+
+Form interaction tracking with Google Tag Manager and Google Analytics
+To ensure the ongoing optimization of the booking form and gain insights into its usage, I implemented a custom adaptation of Simo Ahava’s [form tracking engagement system](https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/). With this, site administrators are able to see how users are traversing the form, where they abandon, and how they reach the final goal of submission:
+
+* Show screenshot of sample abandonment results
+
+{::options parse_block_html="true" /}
+<div class="callout__red">
+### Opportunities for improvement
+
+* Increased visibility on site - post-launch testing has shown the information on house availability is hard-to-find unless already exploring the booking request page
+* Some users report confusion on the definition of booking holds - need to provide contextual clarification
+* Several users submit bookings, but ask for details on wedding pricing (found elsewhere on the site) - need to find a way to serve them this info before they need to ask
+</div>
+
+### Challenge #3 - Improve the site-wide mobile experience
+### Challenge #4 - Strengthen appeal to business clientele
+### Challenge #5 - Improve the photo gallery system
