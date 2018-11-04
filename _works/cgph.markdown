@@ -111,9 +111,7 @@ While I knew this project would require a fully-redesigned website, heuristic an
 
 ### A “just enough” approach
 
-With a condensed working window, we adopted a “just enough” approach to defining the brand. Through a series of facilitated workshops and discussions, I helped venue staff and stakeholders distill core aspects of the brand’s features, benefits, emotional reward, and personality, while still leaving room for further refinement in the future.
-
-The results of our efforts were captured in a “brand pyramid” diagram:
+With a condensed working window, we adopted a “just enough” approach to branding. Through a series of facilitated workshops and discussions, I helped venue staff and stakeholders distill core aspects of the brand, while still leaving room for further refinement in the future:
 
 * Show brand pyramid
 
@@ -121,7 +119,7 @@ In the end, a single-word statement came to represent the essence of the brand a
 
 ### Look and feel
 
-After several iterations, we arrived on a look and feel that emphasized whitespace, a colour palette inspired by coastal gardens, and an emphasis on big, bold imagery that highlights both the natural beauty of the space and the people that give it life.
+After several iterations, we arrived on a look and feel that emphasized whitespace, a colour palette inspired by coastal gardens, and big, bold imagery that highlights both the natural beauty of the space and the people that give it life.
 
 * Show style tile
 
@@ -131,15 +129,16 @@ The brand voice is warm and welcoming, guided by the idea that “the house is o
 
 * Show page 1 of the writing style guide
 
+{::options parse_block_html="true" /}
+<div class="callout__red">
 ### Areas for improvement
 
 * Define and test parameters for brand perception
+</div>
 
 {% include markup-styles/callout--fullWidth.html headline="Website Design" %}
 
 ### Defining website goals
-
-With the business goals, provisional audience definitions, and brand identity now sufficiently established, I felt more confident in approaching the original impetus of the project: redesigning the Cecil Green Park House website.
 
 We identified several key areas of focus for the new website, along with metrics to track their success:
 
