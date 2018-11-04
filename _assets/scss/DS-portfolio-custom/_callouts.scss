@@ -7,5 +7,9 @@
     border: 0.1rem solid #FF6666;
     border-radius: 0.5rem;
     padding: 2em;
+
+    & p:last-child {
+      margin-bottom: 0 !important;
+    }
   }
 }
