@@ -58,7 +58,7 @@ The discovery process began with a series of interviews and workshops with staff
 * Keep number of bookings for TV/movie filming at current pace
 
 ##### SWOT analysis
-Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats (a.k.a. SWOT):
+Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats:
 
 * Show SWOT analysis (obscured as necessary)
 
@@ -105,7 +105,7 @@ While I knew this project would require a fully-redesigned website, heuristic an
 <div class="callout__red">
 ### Areas for improvement
 
-[TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
+* [TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
 </div>
 
 {% include markup-styles/callout--fullWidth.html headline="Branding" %}
@@ -174,15 +174,17 @@ We identified several key areas of focus for the new website, along with metrics
   </tbody>
 </table>
 
-### Challenge #1 - Simplify the site information architecture and navigation
+### Challenge #1 - Simplify information architecture and navigation
 
 ##### Problem: complex original site architecture
-Despite the relatively small scale of the original site, a review of its information architecture revealed a surprising complex structure, with [an unintuitive navigation structure] [several pages very difficult to access or otherwise buried] and navigational labels not reflective of their underlying content:
+Despite the relatively small scale of the original site, a review of its information architecture revealed a surprising complex structure:
 
 * Show original site map
 
 ##### Solution: simplify, focusing on core user needs
-After presenting the original site map to venue staff and stakeholders and ascertaining that none had an interest in adding new content, all agreed that a simpler structure was needed. I then reviewed usage statistics in Google Analytics to determine the most popular pages of the original site and identify common user flows, giving insight on how to best organize the new information architecture.  
+After presenting the original site map to stakeholders and ascertaining that none had an interest in adding new content, all agreed that a simpler structure was needed.
+
+I then reviewed usage statistics in Google Analytics to determine the most popular pages of the original site and identify common user flows, giving insight on how to best organize the new information architecture.  
 
 Several principles guided my revised structure:
 * Give greater hierarchal prominence to high-performing sections of the original site.
@@ -194,7 +196,7 @@ Several principles guided my revised structure:
 * If the venue does not have the resources to ensure that they can regularly create and publish blog content, then remove this aspect of the site.
 * If possible, reduce the navigational hierarchy to no more than two levels (e.g. no third-tier navigational elements).
 
-* Show first and second (final) revisions.
+**Show first and second (final) revisions.**
 
 {::options parse_block_html="true" /}
 <div class="callout__red">
@@ -204,39 +206,49 @@ While the revised site structure is relatively shallow, there is still potential
 
 ### Challenge #2 - Improve the online booking request system
 
-##### Problem: Visitors to the booking system had a high site drop-off rate, particularly on mobile
-Given the strong emphasis by all stakeholders on the goal of increasing venue bookings, the online booking request system is, perhaps, the website’s most important functional element. When conducting a heuristic analysis of the original website, however, this area emerged as my greatest concern in its overall usability. While visitors could easily initiate a booking request from almost any page, the process required them to first download a PDF file showing the venue’s current bookings, note their preferred date, and return to the request form. Beside the fact that users on mobile devices were particularly averse to this process (as verified in the drop-off rates recorded in Google Analytics analytics), the booking calendar file was only periodically updated—meaning that visitors often made requests for dates that had already been booked.
+##### Problem: Frustrating, multi-step process for checking availability
+Given the strong emphasis by all stakeholders on the goal of increasing venue bookings, the online booking request system is, perhaps, the website’s most important functional element.
 
-Beyond this, maintaining the PDF calendar both required ongoing staff time, and introduced the potential for human error when manually transferring booking data from the backend system.
+The original system, however, forced users through a multi-step process to check venue availability:
 
-##### Solution: Design and test a system for surfacing real-time booking data from the backend
+* Show process flow
 
-I consulted with venue staff to investigate the parameters of their backend booking system and ideate possible approaches. Eventually, we settled on the idea of devising a calendar interface that surfaced real-time booking information. This was further distilled to a few core parameters:
+Beside the fact that users on mobile devices were particularly averse to this (as verified in the data for site drop-offs), the booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked.
 
-Each date has three possible booking periods (morning, evening, and full-day)
-Calendar must visually differentiate between dates with partial and full-day bookings
+##### Solution: Design a system for surfacing real-time booking data
 
-The breakthrough moment came when we discovered that, contrary to our initial concerns, the venue’s backend booking system had just enough API access to give us the necessary data. This lead to the first version of the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
+I consulted with venue staff to investigate the parameters of their backend booking system and ideate possible approaches. Eventually, we settled on the idea of a calendar interface that surfaced real-time booking information. This was further distilled to a few core requirements:
+
+* Each date has three possible booking periods (morning, evening, and full-day)
+* Calendar must visually differentiate between dates with partial and full-day bookings
+
+I worked with IT services to determine which data could be extracted from the venue's backend booking system. This lead to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
+
 * Show calendar v1 (red/orange circles)
 
 In this case, users interested in dates with half-day bookings would first need to choose a date before seeing their options in the associated time picker:
+
 * Show time picker
 
 When presenting my proposed design to venue staff, they questioned the absence of key information from the interface. It emerged that an important specification was missed from the first iteration: the inclusion of tentative bookings (or “holds”), yet to be confirmed by clients but necessary to provide visitors with an accurate picture of the venue’s availability.
 
 To accommodate this, I revised my design to indicate dates with holds using crosshatching:
+
 * Show calendar v2 (red/orange circles w/ crosshatching)
 
-I took a prototype of this design to several individuals for “guerilla” user testing, asking them to perform several tasks and answer questions on the system’s functionality. Among the results, I found that:
+I took a prototype of this design to several individuals for “guerilla” user testing, asking them to perform several tasks and answer questions on the system’s functionality.
+
+Among the results, I found that:
 * Forcing users to first select a date before learning the availability of their preferred time slot added cognitive load to the process, particularly for mobile users.
 * Differentiating crosshatching from solid colours was difficult for some users with vision impairments.
 
 With this information, I revised my design to include complete details on each day’s booking availability using only solid, contrasting colours:
 * Show calendar v3 (final)
 
-After conducting another round of guerilla testing, no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.
+After conducting another round of guerilla testing, **no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.**
 
-Form interaction tracking with Google Tag Manager and Google Analytics
+##### Form interaction tracking with Google Tag Manager and Google Analytics
+
 To ensure the ongoing optimization of the booking form and gain insights into its usage, I implemented a custom adaptation of Simo Ahava’s [form tracking engagement system](https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/). With this, site administrators are able to see how users are traversing the form, where they abandon, and how they reach the final goal of submission:
 
 * Show screenshot of sample abandonment results
@@ -253,3 +265,16 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 ### Challenge #3 - Improve the site-wide mobile experience
 ### Challenge #4 - Strengthen appeal to business clientele
 ### Challenge #5 - Improve the photo gallery system
+
+{% include markup-styles/callout--fullWidth.html headline="Results" %}
+Since launching in August 2018, the the new website has resulted in several significant improvements over the same period in the previous year:
+* 70% increase in online booking requests.
+* 20% increase in booking requests for business or other non-wedding events.
+* 114% increase in unique page views on the booking request page.
+* 64% increase in unique page views from mobile and tablet devices
+* 18% decrease in the site-wide bounce rate (21% for mobile and tablet)
+* 48% increase in unique page views on the photo gallery directory
+
+Anecdotally, several clients have specifically praised the new booking system, claiming that it made their process easy and enjoyable to complete.
+
+{% include markup-styles/callout--fullWidth.html headline="Reflection" %}
