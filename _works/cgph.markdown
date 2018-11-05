@@ -131,7 +131,7 @@ In the end, a single-word statement came to represent the essence of the brand a
 
 After several iterations, we arrived on a look and feel that emphasized whitespace, a colour palette inspired by coastal gardens, and big, bold imagery that highlights both the natural beauty of the space and the people that give it life.
 
-![Style Tile](/uploads/CGPH-Style-Tile-min.png)
+![Style Tile](/uploads/CGPH-Style-Tile-min.png#full)
 
 ### Tone of voice
 
@@ -208,7 +208,7 @@ Several principles guided my revised structure:
 **Show first and second (final) revisions.**
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight single-item">
+<div class="callout left-highlight bottom-margin">
 ### Opportunity for improvement
 While the revised site structure is relatively shallow, there is still potential for its improvement through card sorting exercises with users.
 </div>
@@ -263,7 +263,7 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 * Show screenshot of sample abandonment results
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight">
+<div class="callout left-highlight bottom-margin">
 ### Opportunities for improvement
 
 * Increased visibility on site - post-launch testing has shown the information on house availability is hard-to-find unless already exploring the booking request page
