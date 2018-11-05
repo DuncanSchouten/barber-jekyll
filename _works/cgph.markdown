@@ -69,13 +69,14 @@ Early in the project, I established a spreadsheet documenting the most salient i
 
 ![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
 
+<!--
 {::options parse_block_html="true" /}
 <div class="imageGrid double" data-columns>
   <div>
   ![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
   </div>
 </div>
-
+-->
 ### Provisional personas
 
 Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches to identify the business’s core audiences. Interviews with venue staff—the business’s primary client liaisons—were critical to providing initial demographic data on the primary audiences.
