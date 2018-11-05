@@ -57,20 +57,20 @@ The discovery process began with a series of interviews and workshops with staff
 * Increase number of UBC bookings
 * Keep number of bookings for TV/movie filming at current pace
 
-##### SWOT analysis
+### SWOT analysis
+
 Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats:
 
-* Show SWOT analysis (obscured as necessary)
+![SWOT Analysis](/uploads/SWOT-Analysis-Blurred-min.png)
 
 ### Competitive research
 
 Early in the project, I established a spreadsheet documenting the most salient information on the venue’s local competition. In conjunction with the SWOT analysis, this helped to pinpoint areas where Cecil Green Park House could set itself apart:
 
+![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
+
 {::options parse_block_html="true" /}
 <div class="imageGrid double" data-columns>
-  <div>
-  ![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
-  </div>
   <div>
   ![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
   </div>
@@ -82,7 +82,7 @@ Lacking budget for conducting research with past or prospective clients, I relie
 
 This flowed naturally into a workshop with staff and stakeholders where we defined several provisional user personas:
 
-* Show provisional persona
+![Provisional Persona](/uploads/Provisional-Persona-min.png)
 
 For our main personas, we also developed provisional journey maps:
 
@@ -130,7 +130,7 @@ In the end, a single-word statement came to represent the essence of the brand a
 
 After several iterations, we arrived on a look and feel that emphasized whitespace, a colour palette inspired by coastal gardens, and big, bold imagery that highlights both the natural beauty of the space and the people that give it life.
 
-* Show style tile
+![Style Tile](/uploads/CGPH-Style-Tile-min.png)
 
 ### Tone of voice
 
