@@ -4,14 +4,17 @@
 .styled-table {
   margin-bottom: 1.5em;
 
-  .striped {
+  &.striped {
+    margin-left: -0.6em;
+    margin-right: -0.6em;
+
     tr:nth-child(even) {
         background-color: #f2f2f2;
     }
 
     th, td {
       text-align: left;
-      padding: 0.6em 0.7em 0.6em 0;
+      padding: 0.6em;
     }
 
     td {
