@@ -121,17 +121,13 @@ While I knew this project would require a fully-redesigned website, heuristic an
 
 ### A “just enough” approach
 
-With a condensed working window, we adopted a “just enough” approach to branding. Through a series of facilitated workshops and discussions, I helped venue staff and stakeholders distill core aspects of the brand, while still leaving room for further refinement in the future:
-
-* Show brand pyramid
-
-In the end, a single-word statement came to represent the essence of the brand and the experiences it offers: **incomparable.**
+With a condensed working window, we adopted a “just enough” approach to branding. Through a series of facilitated workshops and discussions, I helped venue staff and stakeholders distill core aspects of the brand, while still leaving room for further refinement in the future.
 
 ### Look and feel
 
 After several iterations, we arrived on a look and feel that emphasized whitespace, a colour palette inspired by coastal gardens, and big, bold imagery that highlights both the natural beauty of the space and the people that give it life.
 
-![Style Tile](/uploads/CGPH-Style-Tile-min.png#full)
+![Style Tile](/uploads/CGPH-Style-Tile-1920-min.png)
 
 ### Tone of voice
 
@@ -258,9 +254,9 @@ After conducting another round of guerilla testing, **no users reported any of t
 
 ##### Form interaction tracking with Google Tag Manager and Google Analytics
 
-To ensure the ongoing optimization of the booking form and gain insights into its usage, I implemented a custom adaptation of Simo Ahava’s [form tracking engagement system](https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/). With this, site administrators are able to see how users are traversing the form, where they abandon, and how they reach the final goal of submission:
+To ensure the ongoing optimization of the booking form and gain insights into its usage, I implemented a custom adaptation of Simo Ahava’s [form interaction tracking system](https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/). With this, site administrators are able to see how users are traversing the form, where they abandon, and how they reach the final goal of submission:
 
-* Show screenshot of sample abandonment results
+![Form interaction tracking results](/uploads/CGPH-Booking-form-abandonments-min.png)
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight bottom-margin">
