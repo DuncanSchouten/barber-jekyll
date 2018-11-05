@@ -106,7 +106,7 @@ This data also supported the information provided by venue staff and gave added 
 
 I completed my research with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
 
-![Heuristic analysis of original site](/uploads/Heuristic analysis-min.png)
+![Heuristic analysis of original site](/uploads/Heuristic-Analysis-Min.png)
 
 While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
