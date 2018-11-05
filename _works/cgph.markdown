@@ -37,7 +37,7 @@ I worked on this project as **business analyst, lead designer,** and **product m
 * take the site through testing and launch.
 
 {::options parse_block_html="true" /}
-<div class="callout__red">
+<div class="callout left-highlight">
 ### Challenge: no resources for research or testing
 
 I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
@@ -102,7 +102,7 @@ I completed my research with a heuristic analysis of the original website, using
 While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
 {::options parse_block_html="true" /}
-<div class="callout__red">
+<div class="callout left-highlight">
 ### Areas for improvement
 
 * [TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
@@ -131,7 +131,7 @@ The brand voice is warm and welcoming, guided by the idea that “the house is o
 * Show page 1 of the writing style guide
 
 {::options parse_block_html="true" /}
-<div class="callout__red">
+<div class="callout left-highlight">
 ### Areas for improvement
 
 * Define and test parameters for brand perception
@@ -199,7 +199,7 @@ Several principles guided my revised structure:
 **Show first and second (final) revisions.**
 
 {::options parse_block_html="true" /}
-<div class="callout__red">
+<div class="callout left-highlight single-item">
 ### Opportunity for improvement
 While the revised site structure is relatively shallow, there is still potential for its improvement through card sorting exercises with users.
 </div>
@@ -254,7 +254,7 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 * Show screenshot of sample abandonment results
 
 {::options parse_block_html="true" /}
-<div class="callout__red">
+<div class="callout left-highlight">
 ### Opportunities for improvement
 
 * Increased visibility on site - post-launch testing has shown the information on house availability is hard-to-find unless already exploring the booking request page
