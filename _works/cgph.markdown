@@ -66,7 +66,15 @@ Next, I undertook a top-level analysis of the business’s strengths, weaknesses
 
 Early in the project, I established a spreadsheet documenting the most salient information on the venue’s local competition. In conjunction with the SWOT analysis, this helped to pinpoint areas where Cecil Green Park House could set itself apart:
 
-![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
+{::options parse_block_html="true" /}
+<div class="imageGrid double" data-columns>
+  <div>
+  ![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
+  </div>
+  <div>
+  ![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
+  </div>
+</div>
 
 ### Provisional personas
 

@@ -1,0 +1,67 @@
+//----------------------------------------------
+// Image Grid
+//----------------------------------------------
+.imageGrid {
+  padding: 1em 1em 3em;
+
+  @media (min-width: $mq-small) {
+    padding: {
+      right: 2em;
+      left: 2em;
+    }
+  }
+
+  @media (min-width: $mq-med) {
+    padding: {
+      right: 1em;
+      left: 1em;
+    }
+  }
+
+  @media (min-width: $mq-xlarge) {
+    padding: {
+      top: 2em;
+      bottom: 4em;
+    }
+  }
+
+  &.double {
+    &[data-columns]:before {
+      @media screen and (max-width: $mq-med) {
+        content: '1 .column.posts-full';
+      }
+
+      @media screen and (min-width: $mq-med) {
+        content: '2 .column.posts-half';
+      }
+    }
+  }
+
+  &__container {
+    margin: {
+      right: -1em;
+      left: -1em;
+    }
+
+    &[data-columns]:before {
+      @media screen and (max-width: $mq-med) {
+        content: '1 .column.posts-full';
+      }
+
+      @media screen and (min-width: $mq-med) and (max-width: $mq-xlarge) {
+        content: '2 .column.posts-half';
+      }
+
+      @media screen and (min-width: $mq-xlarge) {
+        content: '3 .column.posts-third';
+      }
+    }
+
+    &:after {
+      content: "";
+
+      display: table;
+      clear: both;
+    }
+  }
+}
