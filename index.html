@@ -5,8 +5,81 @@ pagination:
   enabled: true
   collection: works
 ---
+<style type="text/css">
+
+  #hero .content {
+    padding: 5em 1em 6em;
+    text-align: center;
+  }
+
+  #hero h1 {
+    font-family: lora, serif;
+    font-size: 2.5em;
+    line-height: 1.3em;
+    letter-spacing: -1px;
+    margin-bottom: 0.1em;
+  }
+
+  #hero h2 {
+    font-family: roboto, sans-serif;
+    font-size: 1em;
+  }
+
+  @media screen and (min-width: 22em) {
+    #hero .content {
+      padding: 6em 1em 6em;
+      text-align: left;
+    }
+
+    #hero h1, h2 {
+
+    }
+  }
+
+  @media screen and (min-width: 32em) {
+    #hero .content {
+      padding: 6em 2em 6em;
+      text-align: left;
+    }
+
+    #hero h1, h2 {
+      max-width: 60%;
+    }
+  }
+
+  @media screen and (min-width: 54em) {
+    #hero .content {
+      padding: 6em 1em 6em;
+    }
+
+    #hero h1, h2 {
+
+    }
+  }
+
+  @media screen and (min-width: 64em) {
+    #hero .content {
+
+    }
+
+    #hero h1, h2 {
+
+    }
+
+
+</style>
+
 <!-- The main content area -->
-<div class="posts">
+<section id="hero">
+  <div class="content">
+    <div class="grid-xlarge">
+      <h1>I'm Duncan, a designer based in Vancouver, BC.</h1>
+      <h2>I work with businesses to help solve the right problems, at the right time, for the right people.</h2>
+    </div>
+  </div>
+</section>
+
+<div class="posts" style="background: #f2f2f2;">
   <div class="grid-xlarge">
     <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
       {% for post in paginator.posts %}
