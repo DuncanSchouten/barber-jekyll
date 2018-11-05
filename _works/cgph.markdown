@@ -148,11 +148,11 @@ The brand voice is warm and welcoming, guided by the idea that “the house is o
 
 We identified several key areas of focus for the new website, along with metrics to track their success:
 
-<table rules="groups">
+<table rules="groups" class="styled-table striped">
   <thead>
     <tr>
-      <th style="text-align: left;">Goal</th>
-      <th style="text-align: left;">Metric</th>
+      <th>Goal</th>
+      <th>Metric</th>
     </tr>
   </thead>
   <tbody>
