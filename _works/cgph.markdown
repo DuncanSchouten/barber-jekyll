@@ -256,7 +256,7 @@ Given the strong emphasis by all stakeholders on the goal of increasing venue bo
 
 The original system, however, forced users through a multi-step process to check venue availability:
 
-![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png)
+![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png){:height="222px" width="600px"}
 
 Beside the fact that users on mobile devices were particularly averse to this (as verified in the data for site drop-offs), the booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked.
 
