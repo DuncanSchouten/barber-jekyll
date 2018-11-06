@@ -32,27 +32,22 @@ Cecil Green Park House—a well-known Vancouver event venue—was facing a multi
 #### Our approach
 While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to clarify the venue's business goals, brand identity, target audiences, and local competition.
 
-Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, including a fully-reimagined online booking process.
+Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website and a fully-reimagined online booking process.
 
 
 ### My role
 
-I worked on this project as **business analyst, lead designer,** and **product manager.**
+I worked on this project as **researcher, lead designer,** and **product manager.**
 
 #### Main areas of responsibility:
 
-* Management
 * Research (business requirements, personas, user flows, heuristic analysis)
-* Design (branding and website)
-* research and identify business and technical requirements
-* define brand identity
-* establish guidelines for the brand’s visual appearance and tone of voice
-* construct the website’s information architecture
-* wireframe, prototype, and design the website’s front-end
-* test and evaluate generated ideas
-* write copy for the website
-* build an analytic framework using Google Analytics and Google Tag Manage;
-* take the site through testing and launch.
+* Wireframing & Prototyping
+* Usability testing
+* Design (information architecture, branding, and website)
+* Content strategy
+* Reporting (Google Analytics and Google Tag Manager)
+* Management (project leadership, direction of deliverables)
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight">
@@ -67,12 +62,11 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 ### Business goals
 
-The discovery process began with a series of interviews and workshops with staff and stakeholders to clarify the business's long-term goals:
+The discovery process began with a series of interviews and workshops with staff and stakeholders to clarify the business's long-term goals, including:
 
 * Reach capacity of 100 weddings per season
 * Grow the number of corporate retreats and other business events
 * Increase number of holiday parties
-* Increase number of UBC bookings
 * Keep number of bookings for TV/movie filming at current pace
 
 
@@ -103,7 +97,7 @@ Next, I undertook a top-level analysis of the business’s strengths, weaknesses
 
 ### Competitive research
 
-Complementing the SWOT analysis was research on the most salient information on the venue’s local competition:
+Complementing the SWOT analysis was research on the most salient information of the venue’s local competition:
 
 ![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
 
@@ -157,9 +151,8 @@ While I knew this project would require a fully-redesigned website, heuristic an
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight">
-### Areas for improvement
-
-* [TALK ABOUT POTENTIAL FOR AND IMPORTANCE OF FUTURE VALIDATION]
+### Opportunity for improvement
+We were not able to validate any of the qualitative user details we assembled. Hopefully, this can be rectified in the future.
 </div>
 
 {% include markup-styles/callout--fullWidth.html headline="Branding" %}
@@ -178,20 +171,12 @@ After several iterations, we arrived on a look and feel that emphasized whitespa
 
 The brand voice is warm and welcoming, guided by the idea that “the house is old, the audience isn’t.” Working in tandem with the imagery, we evoke the unique sensory experiences found across the house grounds.
 
-* Show page 1 of the writing style guide
-
-{::options parse_block_html="true" /}
-<div class="callout left-highlight">
-### Areas for improvement
-
-* Define and test parameters for brand perception
-</div>
 
 {% include markup-styles/callout--fullWidth.html headline="Website Design" %}
 
 ### Defining website goals
 
-We identified several key areas of focus for the new website, along with metrics to track their success:
+We identified several key areas of focus for the new website, along with metrics to track their performance:
 
 <table rules="groups" class="styled-table striped">
   <thead>
@@ -227,26 +212,22 @@ We identified several key areas of focus for the new website, along with metrics
 ### Challenge #1 - Simplify information architecture and navigation
 
 #### Problem: complex original site architecture
-Despite the relatively small scale of the original site, a review of its information architecture revealed a surprising complex structure:
+Despite the relatively small scale of the original site, a review of its information architecture revealed a surprisingly complex structure:
 
 ![Original site information architecture](/uploads/CGPH-old-IA.png)
 
 #### Solution: simplify, focusing on core user needs
-After presenting the original site map to stakeholders and ascertaining that none had an interest in adding new content, all agreed that a simpler structure was needed.
+After presenting the original site map to stakeholders, all agreed that a simpler structure was needed.
 
-I then reviewed usage statistics in Google Analytics to determine the most popular pages of the original site and identify common user flows, giving insight on how to best organize the new information architecture.  
-
-Several principles guided my revised structure:
-* Give greater hierarchal prominence to high-performing sections of the original site.
-* Wherever possible, ensure that each page has the potential to support one or more business goals.
-* Ensure that essential information is in its most contextually relevant location, rather than grouped under a catch-all FAQ.
-* Label navigational elements and page titles according to the primary tasks, interests, and/or needs of the key audiences (e.g. “request booking”, “weddings”, “meetings and events”, etc.).
-* Remove pages only intended for confirmed clients (e.g. information on usage policies for the venue) from the global architecture and block these pages from search engines.
-* Create tailored, individual pages in cases where similar content is being served to multiple target audiences (e.g. information on preferred vendors for both weddings and business event), rather than sending all audiences to a single page with information irrelevant to their needs.
-* If the venue does not have the resources to ensure that they can regularly create and publish blog content, then remove this aspect of the site.
-* If possible, reduce the navigational hierarchy to no more than two levels (e.g. no third-tier navigational elements).
+I reviewed usage statistics in Google Analytics to determine the most popular pages of the original site and identify common user flows, giving insight on how to best organize the new information architecture:  
 
 ![New site information architecture](/uploads/CGPH-new-IA.png)
+
+Among the principles guided that guided my revised structure were:
+* Giving greater hierarchal prominence to high-performing sections of the original site.
+* Ensuring that each page supports business goals.
+* Labeling navigational elements and page titles according to the primary tasks, interests, and/or needs of the key audiences (e.g. “request booking”, “weddings”, “meetings and events”, etc.).
+* Removing pages only intended for confirmed clients (e.g. information on usage policies for the venue) from the global architecture and blocking these pages from search engine indexing
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight bottom-margin">
@@ -315,8 +296,8 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 <div class="callout left-highlight bottom-margin">
 ### Opportunities for improvement
 
-* Increased visibility on site - post-launch testing has shown the information on house availability is hard-to-find unless already exploring the booking request page
-* Some users report confusion on the definition of booking holds - need to provide contextual clarification
+* Improve visibility on site - post-launch testing has shown the information on venue availability is hard-to-find unless users are already exploring the booking request page
+* Identify methods for clarifying user confusion on the definition of booking holds
 * Several users submit bookings, but ask for details on wedding pricing (found elsewhere on the site) - need to find a way to serve them this info before they need to ask
 </div>
 
