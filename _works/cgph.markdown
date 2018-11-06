@@ -18,27 +18,32 @@ tags:
    margin-top: 1em;  
   }
 
-  h5 {
-    margin-top: 1em;
+  h4, h5 {
+    margin-top: 0.5em;
     margin-bottom: 1rem !important;
   }
 </style>
 
 ### Overview
 
+#### The problem
 Cecil Green Park House—a well-known Vancouver event venue—was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
 
-While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I first helped to clarify the venue's business goals, brand identity, target audiences, and local competition.
+#### Our approach
+While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to clarify the venue's business goals, brand identity, target audiences, and local competition.
 
-Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, a fully-reimagined online booking process, and guidelines for both the brand look and feel and its overall tone of voice.
+Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website, including a fully-reimagined online booking process.
 
 
 ### My role
 
 I worked on this project as **business analyst, lead designer,** and **product manager.**
 
-##### Main areas of responsibility:
+#### Main areas of responsibility:
 
+* Management
+* Research (business requirements, personas, user flows, heuristic analysis)
+* Design (branding and website)
 * research and identify business and technical requirements
 * define brand identity
 * establish guidelines for the brand’s visual appearance and tone of voice
@@ -62,7 +67,7 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 ### Business goals
 
-The discovery process began with a series of interviews and workshops with staff and stakeholders to **clarify the business's long-term goals:**
+The discovery process began with a series of interviews and workshops with staff and stakeholders to clarify the business's long-term goals:
 
 * Reach capacity of 100 weddings per season
 * Grow the number of corporate retreats and other business events
@@ -140,13 +145,13 @@ The final step in my audience discovery process was to review Google Analytics d
 * Most interested in the photo gallery and wedding information pages
 * A first-time site visitor
 
-This data supported the information provided by venue staff and **gave added weight to use of provisional personas in guiding design decisions.**
+This data supported the information provided by venue staff and gave added weight to use of provisional personas in guiding design decisions.
 
 ### Heuristic analysis of original site
 
 I completed my discovery phase with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
 
-![Heuristic analysis of original site](/uploads/Heuristic-Analysis-Min.png)
+![Heuristic analysis of original site](/uploads/Heuristic-Analysis-Min.png){:width="500"}
 
 While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
@@ -221,12 +226,12 @@ We identified several key areas of focus for the new website, along with metrics
 
 ### Challenge #1 - Simplify information architecture and navigation
 
-##### Problem: complex original site architecture
+#### Problem: complex original site architecture
 Despite the relatively small scale of the original site, a review of its information architecture revealed a surprising complex structure:
 
 ![Original site information architecture](/uploads/CGPH-old-IA.png)
 
-##### Solution: simplify, focusing on core user needs
+#### Solution: simplify, focusing on core user needs
 After presenting the original site map to stakeholders and ascertaining that none had an interest in adding new content, all agreed that a simpler structure was needed.
 
 I then reviewed usage statistics in Google Analytics to determine the most popular pages of the original site and identify common user flows, giving insight on how to best organize the new information architecture.  
@@ -251,54 +256,56 @@ While the revised site structure is relatively shallow, there is still potential
 
 ### Challenge #2 - Improve the online booking request system
 
-##### Problem: Frustrating, multi-step process for checking availability
+#### Problem: Frustrating, multi-step process for checking availability
 Given the strong emphasis by all stakeholders on the goal of increasing venue bookings, the online booking request system is, perhaps, the website’s most important functional element.
 
 The original system, however, forced users through a multi-step process to check venue availability:
 
-![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png){:height="222px" width="600px"}
+![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png){:width="500px"}
 
 Beside the fact that users on mobile devices were particularly averse to this (as verified in the data for site drop-offs), the booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked.
 
-##### Solution: Design a system for surfacing real-time booking data
+#### Solution: Design a system for surfacing real-time booking data
 
 I consulted with venue staff to investigate the parameters of their backend booking system and ideate possible approaches. Eventually, we settled on the idea of a calendar interface that surfaced real-time booking information. This was further distilled to a few core requirements:
 
 * Each date has three possible booking periods (morning, evening, and full-day)
 * Calendar must visually differentiate between dates with partial and full-day bookings
 
-##### First iteration
+#### First iteration
 I worked with IT services to determine which data could be extracted from the venue's backend booking system. This lead to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
 
-![Cecil Green Park House booking calendar date picker v1](/uploads/cgph_booking_calendar-v1-cropped.png)
+![Booking calendar date picker v1](/uploads/cgph_booking_calendar-v1-cropped.png)
 
 In this case, users interested in dates with half-day bookings would first need to choose a date before seeing their options in the associated time picker:
 
-![Cecil Green Park House booking calendar time picker](/uploads/cgph_timepicker_buttons-cropped.PNG)
+![Booking calendar time picker](/uploads/cgph_timepicker_buttons-cropped.PNG)
 
-##### Second iteration
+#### Second iteration
 
 When presenting my proposed design to venue staff, it emerged that an important specification was missed from the first iteration: the inclusion of tentative bookings (or “holds”).
 
 To accommodate this, I revised my design to indicate dates with holds using crosshatching:
 
-![Cecil Green Park House booking calendar date picker v1](/uploads/cgph_booking_calendar-v2-cropped.png)
+![Booking calendar date picker v1](/uploads/cgph_booking_calendar-v2-cropped.png)
 
-##### Usability testing
+#### Usability testing
 
-I took a prototype of this design to several individuals for “guerilla” user testing, asking them to perform several tasks and answer questions on the system’s functionality.
+I took a prototype of this design to several individuals for “guerilla” usability testing, asking them to perform several tasks and answer questions on the system’s functionality.
 
-Among the results, I found that:
+#### Among the results, I found that:
 * Forcing users to first select a date before learning the availability of their preferred time slot added cognitive load to the process, particularly for mobile users.
 * Differentiating crosshatching from solid colours was difficult for some users with vision impairments.
 
-##### Third iteration and validation
+#### Third iteration and validation
 With this information, I revised my design to include complete details on each day’s booking availability using only solid, contrasting colours:
-* Show calendar v3 (final)
+
+![Booking calendar date picker v3](/uploads/CGPH-booking-request_mockup_886x1732-min.png){:width="300"}
+
 
 After conducting another round of guerilla testing, **no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.**
 
-##### Form interaction tracking with Google Tag Manager and Google Analytics
+#### Form interaction tracking with Google Tag Manager and Google Analytics
 
 To ensure the ongoing optimization of the booking form and gain insights into its usage, I implemented a custom adaptation of Simo Ahava’s [form interaction tracking system](https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/). With this, site administrators are able to see how users are traversing the form, where they abandon, and how they reach the final goal of submission:
 
