@@ -1,6 +1,6 @@
 ---
 title: 100 Dinners
-layout: page-large
+layout: portfolio-item
 description: Research, Service Design, UX Design
 author: Duncan Schouten
 date: 2018-11-02 00:00:00 +0000
