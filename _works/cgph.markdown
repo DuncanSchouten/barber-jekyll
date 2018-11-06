@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: portfolio-item
 title: Cecil Green Park House
 date: 2018-11-01 00:00:00 +0000
 sort_order: 0
