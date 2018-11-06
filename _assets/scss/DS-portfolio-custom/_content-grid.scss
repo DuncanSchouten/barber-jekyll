@@ -1,7 +1,7 @@
 //----------------------------------------------
 // Image Grid
 //----------------------------------------------
-.imageGrid {
+.content-grid {
   padding: 1em 1em 3em;
 
   @media (min-width: $mq-small) {
@@ -26,6 +26,11 @@
   }
 
   &.double {
+    margin {
+      right: -1em;
+      left: -1em;
+    }
+    
     &[data-columns]:before {
       @media screen and (max-width: $mq-med) {
         content: '1 .column.posts-full';
