@@ -105,12 +105,12 @@ author:
 collections:
   works:
     output: true
-    permalink: /works/:path
+    permalink: /work/:path
 
 defaults:
   - scope:
       path: ""
-      type: "works"
+      type: "work"
     values:
       layout: page
 
