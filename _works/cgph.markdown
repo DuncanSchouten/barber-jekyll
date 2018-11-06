@@ -267,6 +267,7 @@ I consulted with venue staff to investigate the parameters of their backend book
 * Each date has three possible booking periods (morning, evening, and full-day)
 * Calendar must visually differentiate between dates with partial and full-day bookings
 
+##### First iteration
 I worked with IT services to determine which data could be extracted from the venue's backend booking system. This lead to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
 
 ![Cecil Green Park House booking calendar date picker v1](/uploads/cgph_booking_calendar-v1-cropped.png)
@@ -275,11 +276,15 @@ In this case, users interested in dates with half-day bookings would first need 
 
 ![Cecil Green Park House booking calendar time picker](/uploads/cgph_timepicker_buttons-cropped.PNG)
 
+##### Second iteration
+
 When presenting my proposed design to venue staff, it emerged that an important specification was missed from the first iteration: the inclusion of tentative bookings (or “holds”).
 
 To accommodate this, I revised my design to indicate dates with holds using crosshatching:
 
 ![Cecil Green Park House booking calendar date picker v1](/uploads/cgph_booking_calendar-v2-cropped.png)
+
+##### Usability testing
 
 I took a prototype of this design to several individuals for “guerilla” user testing, asking them to perform several tasks and answer questions on the system’s functionality.
 
@@ -287,6 +292,7 @@ Among the results, I found that:
 * Forcing users to first select a date before learning the availability of their preferred time slot added cognitive load to the process, particularly for mobile users.
 * Differentiating crosshatching from solid colours was difficult for some users with vision impairments.
 
+##### Third iteration and validation
 With this information, I revised my design to include complete details on each day’s booking availability using only solid, contrasting colours:
 * Show calendar v3 (final)
 
