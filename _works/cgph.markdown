@@ -1,7 +1,8 @@
 ---
-layout: page-large
+layout: page
 title: Cecil Green Park House
 date: 2018-11-01 00:00:00 +0000
+sort_order: 0
 description: Project Management, Research, Branding, Design
 image: "/assets/images/placeholder-9.jpg#full"
 author: Duncan Schouten
@@ -11,6 +12,13 @@ tags:
 - Kale
 
 ---
+
+<style type="text/css">
+  h3:not(:first-child) {
+   margin-top: 1em;  
+  }
+</style>
+
 ### Overview
 
 Cecil Green Park House—a well-known Vancouver event venue—was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
@@ -49,13 +57,33 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 ### Business goals
 
-The discovery process began with a series of interviews and workshops with staff and stakeholders. The first step in my research was to clarify the long-term goals of the business:
+The discovery process began with a series of interviews and workshops with staff and stakeholders to **clarify the business's long-term goals:**
 
 * Reach capacity of 100 weddings per season
 * Grow the number of corporate retreats and other business events
 * Increase number of holiday parties
 * Increase number of UBC bookings
 * Keep number of bookings for TV/movie filming at current pace
+
+
+
+<!--
+<div class="content-grid double" data-columns>
+  <div>
+  <h3>SWOT analysis</h3>
+  <p>Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats.</p>
+
+  ![SWOT Analysis](/uploads/SWOT-Analysis-Blurred-min.png)
+  </div>
+  <div>
+  <h3>Competitive research</h3>
+
+  <p>Early in the project, I researched the most salient information on the venue’s local competition.</p>
+
+  ![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
+  </div>
+</div>
+-->
 
 ### SWOT analysis
 
@@ -65,25 +93,32 @@ Next, I undertook a top-level analysis of the business’s strengths, weaknesses
 
 ### Competitive research
 
-Early in the project, I established a spreadsheet documenting the most salient information on the venue’s local competition. In conjunction with the SWOT analysis, this helped to pinpoint areas where Cecil Green Park House could set itself apart:
+Complementing the SWOT analysis was research on the most salient information on the venue’s local competition:
 
 ![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
 
-<!--
-{::options parse_block_html="true" /}
-<div class="imageGrid double" data-columns>
-  <div>
-  ![Placeholder](/uploads/Screen Shot 2018-11-02 at 9.47.20 PM.png)
-  </div>
-</div>
--->
 ### Provisional personas
 
-Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches to identify the business’s core audiences. Interviews with venue staff—the business’s primary client liaisons—were critical to providing initial demographic data on the primary audiences.
+Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches.
+
+Interviews with venue staff&mdash;the business’s primary client liaisons&mdash;were critical to providing initial demographic data on the primary audiences.
 
 This flowed naturally into a workshop with staff and stakeholders where we defined several provisional user personas:
 
-![Provisional Persona](/uploads/Provisional-Persona-min.png)
+<!--
+<div class="content-grid double" data-columns>
+<div>
+![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop.jpg)
+</div>
+<div>
+![Provisional persona](/uploads/Provisional-Persona-min.png)
+</div>
+</div>
+-->
+
+![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop.jpg)
+
+![Provisional persona](/uploads/Provisional-Persona-min.png)
 
 For our main personas, we also developed provisional journey maps:
 
@@ -100,11 +135,11 @@ The final step in my audience discovery process was to review Google Analytics d
 * Most interested in the photo gallery and wedding information pages
 * A first-time site visitor
 
-This data also supported the information provided by venue staff and gave added weight to the utility of the provisional personas in guiding design decisions.
+This data supported the information provided by venue staff and **gave added weight to use of provisional personas in guiding design decisions.**
 
 ### Heuristic analysis of original site
 
-I completed my research with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
+I completed my discovery phase with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
 
 ![Heuristic analysis of original site](/uploads/Heuristic-Analysis-Min.png)
 
@@ -184,7 +219,7 @@ We identified several key areas of focus for the new website, along with metrics
 ##### Problem: complex original site architecture
 Despite the relatively small scale of the original site, a review of its information architecture revealed a surprising complex structure:
 
-* Show original site map
+![Original site information architecture](/uploads/CGPH-old-IA.png)
 
 ##### Solution: simplify, focusing on core user needs
 After presenting the original site map to stakeholders and ascertaining that none had an interest in adding new content, all agreed that a simpler structure was needed.
@@ -201,7 +236,7 @@ Several principles guided my revised structure:
 * If the venue does not have the resources to ensure that they can regularly create and publish blog content, then remove this aspect of the site.
 * If possible, reduce the navigational hierarchy to no more than two levels (e.g. no third-tier navigational elements).
 
-**Show first and second (final) revisions.**
+![New site information architecture](/uploads/CGPH-new-IA.png)
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight bottom-margin">
@@ -216,7 +251,7 @@ Given the strong emphasis by all stakeholders on the goal of increasing venue bo
 
 The original system, however, forced users through a multi-step process to check venue availability:
 
-* Show process flow
+![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png)
 
 Beside the fact that users on mobile devices were particularly averse to this (as verified in the data for site drop-offs), the booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked.
 
@@ -229,17 +264,17 @@ I consulted with venue staff to investigate the parameters of their backend book
 
 I worked with IT services to determine which data could be extracted from the venue's backend booking system. This lead to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
 
-* Show calendar v1 (red/orange circles)
+![Cecil Green Park House booking calendar date picker v1](/uploads/cgph_booking_calendar-v1-cropped.png)
 
 In this case, users interested in dates with half-day bookings would first need to choose a date before seeing their options in the associated time picker:
 
-* Show time picker
+![Cecil Green Park House booking calendar time picker](/uploads/cgph_timepicker_buttons-cropped.PNG)
 
-When presenting my proposed design to venue staff, they questioned the absence of key information from the interface. It emerged that an important specification was missed from the first iteration: the inclusion of tentative bookings (or “holds”), yet to be confirmed by clients but necessary to provide visitors with an accurate picture of the venue’s availability.
+When presenting my proposed design to venue staff, it emerged that an important specification was missed from the first iteration: the inclusion of tentative bookings (or “holds”).
 
 To accommodate this, I revised my design to indicate dates with holds using crosshatching:
 
-* Show calendar v2 (red/orange circles w/ crosshatching)
+![Cecil Green Park House booking calendar date picker v1](/uploads/cgph_booking_calendar-v2-cropped.png)
 
 I took a prototype of this design to several individuals for “guerilla” user testing, asking them to perform several tasks and answer questions on the system’s functionality.
 
