@@ -115,7 +115,7 @@ This flowed naturally into a workshop with staff and stakeholders where we defin
 
 For our main personas, we also developed provisional journey maps:
 
-* Show provisional journey map
+![Provisional journey map](/uploads/CGPH-Provisional-Journey-Map.png)
 
 ### Review of Google Analytics demographics
 
