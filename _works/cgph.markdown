@@ -50,7 +50,7 @@ I worked on this project as **researcher, lead designer,** and **product manager
 * Management (project leadership, direction of deliverables)
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight">
+<div class="callout left-highlight top-margin">
 ### Challenge: no resources for research or testing
 
 I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
@@ -111,17 +111,6 @@ Interviews with venue staff&mdash;the business’s primary client liaisons&mdash
 
 This flowed naturally into a workshop with staff and stakeholders where we defined several provisional user personas:
 
-<!--
-<div class="content-grid double" data-columns>
-<div>
-![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop.jpg)
-</div>
-<div>
-![Provisional persona](/uploads/Provisional-Persona-min.png)
-</div>
-</div>
--->
-
 ![Provisional persona](/uploads/Provisional-Persona-min.png)
 
 For our main personas, we also developed provisional journey maps:
@@ -150,7 +139,7 @@ I completed my discovery phase with a heuristic analysis of the original website
 While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight">
+<div class="callout left-highlight top-margin">
 ### Opportunity for improvement
 We were not able to validate any of the qualitative user details we assembled. Hopefully, this can be rectified in the future.
 </div>
@@ -232,7 +221,7 @@ Among the principles guided that guided my revised structure were:
 * Removing pages only intended for confirmed clients (e.g. information on usage policies for the venue) from the global architecture and blocking these pages from search engine indexing
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight bottom-margin">
+<div class="callout left-highlight bottom-margin top-margin">
 ### Opportunity for improvement
 While the revised site structure is relatively shallow, there is still potential for its improvement through card sorting exercises with users.
 </div>
@@ -246,7 +235,9 @@ The original system, however, forced users through a multi-step process to check
 
 ![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png){:width="500px"}
 
-Beside the fact that users on mobile devices were particularly averse to this (as verified in the data for site drop-offs), the booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked.
+This created two problems:
+1. Users on mobile devices were particularly averse to this (as verified in the data for site drop-offs).
+2. The booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked.
 
 #### Solution: Design a system for surfacing real-time booking data
 
@@ -254,6 +245,32 @@ I consulted with venue staff to investigate the parameters of their backend book
 
 * Each date has three possible booking periods (morning, evening, and full-day)
 * Calendar must visually differentiate between dates with partial and full-day bookings
+
+<!--
+{::options parse_block_html="true" /}
+<div class="content-grid double" style="margin-left: -1.5em; margin-right: -1.5em;" data-columns>
+<div>
+#### First iteration
+I worked with IT services to determine which data could be extracted from the venue's backend booking system. This lead to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
+
+![Booking calendar date picker v1](/uploads/cgph_booking_calendar-v1-cropped.png)
+
+In this case, users interested in dates with half-day bookings would first need to choose a date before seeing their options in the associated time picker:
+
+![Booking calendar time picker](/uploads/cgph_timepicker_buttons-cropped.PNG)
+</div>
+<div>
+#### Second iteration
+
+When presenting my proposed design to venue staff, it emerged that an important specification was missed from the first iteration: the inclusion of tentative bookings (or “holds”).
+
+To accommodate this, I revised my design to indicate dates with holds using crosshatching:
+
+![Booking calendar date picker v1](/uploads/cgph_booking_calendar-v2-cropped.png)
+</div>
+</div>
+-->
+
 
 #### First iteration
 I worked with IT services to determine which data could be extracted from the venue's backend booking system. This lead to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
@@ -281,12 +298,14 @@ I took a prototype of this design to several individuals for “guerilla” usab
 * Differentiating crosshatching from solid colours was difficult for some users with vision impairments.
 
 #### Third iteration and validation
-With this information, I revised my design to include complete details on each day’s booking availability using only solid, contrasting colours:
+With this information, I revised my design to include complete details on each day’s booking availability using only solid, contrasting colours to ensure accessibility.
+
+After conducting another round of guerilla testing, **no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.**
 
 ![Booking calendar date picker v3](/uploads/CGPH-booking-request_mockup_886x1732-min.png){:width="300"}
 
 
-After conducting another round of guerilla testing, **no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.**
+
 
 #### Form interaction tracking with Google Tag Manager and Google Analytics
 
@@ -295,19 +314,31 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 ![Form interaction tracking results](/uploads/CGPH-Booking-form-abandonments-min.png)
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight bottom-margin">
+<div class="callout left-highlight bottom-margin top-margin">
 ### Opportunities for improvement
 
-* Improve visibility on site - post-launch testing has shown the information on venue availability is hard-to-find unless users are already exploring the booking request page
-* Identify methods for clarifying user confusion on the definition of booking holds
-* Several users submit bookings, but ask for details on wedding pricing (found elsewhere on the site) - need to find a way to serve them this info before they need to ask
+* Improve visibility on site - post-launch testing has shown the information on venue availability is hard-to-find unless users are already exploring the booking request page.
+* Identify methods for clarifying ongoing user confusion on the definition of booking holds.
+* Test alternate orderings for booking form fields according to preferences shown in abandonment data.
 </div>
 
 ### Challenge #3 - Improve the site-wide mobile experience
 
+#### Problem: Original site not optimized for mobile devices
 
-### Challenge #4 - Strengthen appeal to business clientele
-### Challenge #5 - Improve the photo gallery system
+While the original site theme was responsive, it was only designed around a desktop layout. This led to a frustrating mobile experience, with long-scrolling pages, poorly-structured content, and long page load times.
+
+As a result, the site-wide bounce rate was considerably higher for mobile users than for other groups.
+
+#### Solution: A mobile-first design approach
+
+I designed all pages upward from their mobile layouts, guided by several principles:
+
+1. Use opt-in progressive disclosure (accordions, etc.) where information is not critical
+2. Give all interactive elements appropriate padding for easy "tapability"
+3. Optimize all images and, where possible, load unique mobile-only images  
+4. Edit copy blocks to their shortest length
+
 
 {% include markup-styles/callout--fullWidth.html headline="Results" %}
 Since launching in August 2018, the the new website has resulted in several significant improvements over the same period in the previous year:
