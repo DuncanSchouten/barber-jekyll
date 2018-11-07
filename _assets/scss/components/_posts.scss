@@ -1,6 +1,6 @@
 //----------------------------------------------
 // Posts
-//---------------------------------------------- 
+//----------------------------------------------
 .posts {
   padding: 1em 1em 3em;
 
@@ -36,13 +36,15 @@
         content: '1 .column.posts-full';
       }
 
-      @media screen and (min-width: $mq-med) and (max-width: $mq-xlarge) {
+      @media screen and (min-width: $mq-med) /* and (max-width: $mq-xlarge) */ {
         content: '2 .column.posts-half';
       }
 
+      /* REMOVE WHEN FRONT PAGE HAS >2 ITEMS
       @media screen and (min-width: $mq-xlarge) {
         content: '3 .column.posts-third';
       }
+      */
     }
 
     &:after {
@@ -158,7 +160,7 @@
 
 //----------------------------------------------
 // Salvattore
-//---------------------------------------------- 
+//----------------------------------------------
 .column {
   float: left;
 }
