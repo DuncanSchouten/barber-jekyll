@@ -86,12 +86,12 @@ pagination:
     <div class="">
       <h2 class="">{{ next.title }}</h2>
       <div class="related__links">
-        <button class="home">
-          Return to homepage
-        </button>
-        <button class="next-project">
-          <a href=" {{next.url}} ">View Case Study</a>
-        </button>
+        <div class="button homepage">
+          <a href=" {{ '/' | prepend: site.baseurl }} ">Back to the homepage</a>
+        </div>
+        <div class="button next-project">
+          <a href=" {{ next.url }} ">Read case study</a>
+        </div>
       </div>
     </div>
   </div>

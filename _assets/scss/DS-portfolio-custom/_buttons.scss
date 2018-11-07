@@ -1,0 +1,33 @@
+//----------------------------------------------
+// Buttons
+//----------------------------------------------
+.button {
+  display: inline-block;
+  border-radius: 3px;
+  padding: 16px 20px 17px;
+
+  a {
+    font-family: $font;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -.3px;
+  }
+
+  &.homepage {
+    border-color: #FFFFFF;
+    background-color: none;
+  }
+
+  &.homepage:hover {
+    border-color: none;
+    background-color: #FFFFFF;
+  }
+
+  &.next-project {
+    background-color: #FFFFFF;
+  }
+
+  &.next-project:hover {
+    background-color: #2a87d3;
+  }
+}
