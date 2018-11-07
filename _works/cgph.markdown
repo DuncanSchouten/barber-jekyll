@@ -27,7 +27,7 @@ tags:
 ### Overview
 
 #### The problem
-Cecil Green Park House—a well-known Vancouver event venue—was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
+Cecil Green Park House&mdash;a well-known Vancouver event venue&mdash;was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
 
 #### Our approach
 While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to clarify the venue's business goals, brand identity, target audiences, and local competition.
@@ -59,6 +59,8 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 </div>
 
 {% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
+
+![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop.jpg#full)
 
 ### Business goals
 
@@ -120,8 +122,6 @@ This flowed naturally into a workshop with staff and stakeholders where we defin
 </div>
 -->
 
-![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop.jpg)
-
 ![Provisional persona](/uploads/Provisional-Persona-min.png)
 
 For our main personas, we also developed provisional journey maps:
@@ -157,6 +157,8 @@ We were not able to validate any of the qualitative user details we assembled. H
 
 {% include markup-styles/callout--fullWidth.html headline="Branding" %}
 
+![Style Tile](/uploads/CGPH-Style-Tile-1920-min.png#full)
+
 ### A “just enough” approach
 
 With a condensed working window, we adopted a “just enough” approach to branding. Through a series of facilitated workshops and discussions, I helped venue staff and stakeholders distill core aspects of the brand, while still leaving room for further refinement in the future.
@@ -165,14 +167,14 @@ With a condensed working window, we adopted a “just enough” approach to bran
 
 After several iterations, we arrived on a look and feel that emphasized whitespace, a colour palette inspired by coastal gardens, and big, bold imagery that highlights both the natural beauty of the space and the people that give it life.
 
-![Style Tile](/uploads/CGPH-Style-Tile-1920-min.png)
-
 ### Tone of voice
 
 The brand voice is warm and welcoming, guided by the idea that “the house is old, the audience isn’t.” Working in tandem with the imagery, we evoke the unique sensory experiences found across the house grounds.
 
 
 {% include markup-styles/callout--fullWidth.html headline="Website Design" %}
+
+![Mobile-first design](/uploads/CGPH-Mobile-Mockups-min.jpg#full)
 
 ### Defining website goals
 
@@ -302,6 +304,8 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 </div>
 
 ### Challenge #3 - Improve the site-wide mobile experience
+
+
 ### Challenge #4 - Strengthen appeal to business clientele
 ### Challenge #5 - Improve the photo gallery system
 
