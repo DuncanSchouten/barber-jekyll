@@ -60,7 +60,7 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 {% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
 
-![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop.jpg#full)
+![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop-min.jpg#full)
 
 ### Business goals
 
