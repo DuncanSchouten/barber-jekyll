@@ -1,10 +1,10 @@
 livereload: true
 
 # Site/SEO settings
-email: duncan@duncanschouten.com
+email: duncan.s.schouten@gmail.com
 baseurl: ""
 permalink: /:year/:month/:day/:title/
-google_analytics:
+google_analytics: UA-128874534-1
 
 ############################################################
 # Site configuration for the Jekyll 3 Pagination Gem
@@ -86,7 +86,7 @@ social:
 
 # Contact settings
 contact_img: /assets/images/placeholder-28.jpg
-formcarry: https://formcarry.com/s/HkIo0nMb7
+formcarry: https://formcarry.com/s/n2gSnYavyJZ
 
 # Disqus settings
 disqus: test-apkdzgmqhj
