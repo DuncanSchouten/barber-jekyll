@@ -8,6 +8,17 @@ image: '/uploads/100-Dinners-Cover-1920x1280.jpg'
 tags: []
 
 ---
+<style type="text/css">
+  h3:not(:first-child) {
+   margin-top: 1em;  
+  }
+
+  h4, h5 {
+    margin-top: 0.5em;
+    margin-bottom: 1rem !important;
+  }
+</style>
+
 ### Overview
 
 #### The problem
@@ -89,11 +100,18 @@ The 100 Dinners microsite was intended to serve several key functions:
 * Providing information on the program, both general and specific to hosts
 * Showcasing photos from past events
 
+{::options parse_block_html="true" /}
+<div class="callout left-highlight bottom-margin top-margin">
+### Design constraints
 
-### Prototyping
 At the outset of the project, we established the importance of keeping the 100 Dinners program within the *alumni UBC* brand, rather than giving it a distinct identity.
 
 Because of this, I chose to base design of the microsite on layouts and page elements found elsewhere on the *alumni UBC* site. This had the added benefit of **streamlining the web design process,** allowing the team to focus our efforts on fine-tuning the service as a whole.
+</div>
+
+<!--
+### Primary UX challenge: simplify...
+
 
 #### Mockups
 
@@ -105,3 +123,4 @@ Because of this, I chose to base design of the microsite on layouts and page ele
 
 {% include markup-styles/callout--fullWidth.html headline="Reflection" %}
 * Event management platform did not have an accessible API, meaning that staff time was spent carrying over details from host application form
+-->
