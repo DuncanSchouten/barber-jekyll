@@ -31,7 +31,7 @@ With a limited budget and minimal staff resources for operation, however, **the 
 Our solution was informed through a combination of discussions with potential participants and extensive dialogue with staff at another organization that ran a similar program. By reducing the service to only its essential parts and leveraged automation wherever possible, we established a model that met core business and user needs with little operational overhead.
 
 ### My Role
-Working with a team of two *alumni UBC* events staff, I helped to evaluate and synthesize research, consult with stakeholders on program requirements, and devise an blueprint for efficient service delivery. I then designed a lightweight microsite for the program within the *alumni UBC* web infrastructure and assisted IT Services in its development and launch.
+Working with a team of two *alumni UBC* events staff, I helped to evaluate and synthesize pre-existing research, consult with stakeholders on program requirements, and devise an blueprint for efficient service delivery. I then designed a lightweight microsite for the program within the *alumni UBC* brand and assisted IT Services in its development and launch.
 
 ##### Main areas of responsibility:
 * Research (evaluate and synthesize)
@@ -41,7 +41,7 @@ Working with a team of two *alumni UBC* events staff, I helped to evaluate and s
 
 {% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
 
-![Early 100 Dinners workshop notes](/uploads/100-Dinners-service-sketch.jpg#full)
+![Early 100 Dinners workshop notes](/uploads/100-Dinners-service-sketch-1920x1080.jpg#full)
 
 ### Audience definition
 Like all activities in the *alumni UBC 100* campaign, the 100 Dinners project was intended to help provide UBC alumni with opportunities to stay connected with their alma mater and engage with other graduates.
@@ -57,16 +57,22 @@ Some months later, a series of emails were sent to constituents explaining the 1
 ### Interviews with counterparts at Johns Hopkins University
 The 100 Dinners concept was originally developed by the Johns Hopkins Bloomberg School of Public Health for their own centenary. In our discovery phase, the *alumni UBC* 100 Dinners program lead established an ongoing dialogue with her counterpart at Hopkins to learn what did and didn’t work in their implementation.
 
+{::options parse_block_html="true" /}
+<div class="callout left-highlight green bottom-margin top-margin">
 ##### What worked well:
 * Providing a searchable online map of dinner locations was highly effective in building interest
 * Program staff assisted in email outreach to potential guests in the areas surrounding each dinner
 * Asking hosts to take pictures at their events and share with the school
+</div>
 
+{::options parse_block_html="true" /}
+<div class="callout left-highlight red bottom-margin top-margin">
 ##### What didn’t work well:
 * The website grew too complex for internal implementation, necessitating the contracting of external developers and adding costs to the program
 * Processing guest RSVPs was handled by program staff and required significant resources
 * While hosts were asked to provide guest lists after each dinner, few followed through
 * Both guests and hosts relied heavily on asking questions of program staff, rather than referring to online FAQs
+</div>
 
 ### Business goals and measuring success
 As a new, untested idea for *alumni UBC*, relatively few concrete business goals were set for the inaugural series of 100 Dinners. The single measurable target we established was a goal of **1,000 total attendees across all events.**
@@ -85,7 +91,7 @@ Our approach included:
 * Incentivizing post-event reporting and photo submission with a prize giveaway, as well as providing an online form to ease the process
 
 ### Service blueprint
-We developed a detailed service blueprint over several iterations (as seen above), giving a clear overview of staff and operational requirements.
+We developed a detailed service blueprint over several iterations (seen above), giving a clear overview of staff requirements and operational processes.
 
 
 
@@ -96,21 +102,34 @@ We developed a detailed service blueprint over several iterations (as seen above
 
 The 100 Dinners microsite was intended to serve several key functions:
 * Facilitating host applications and post-event reporting
-* Surfacing details on forthcoming dinners
-* Providing information on the program, both general and specific to hosts
+* Surfacing details on upcoming dinners
+* Pass guests to the appropriate RSVP page
 * Showcasing photos from past events
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight bottom-margin top-margin">
+<div class="callout left-highlight red bottom-margin top-margin">
 ### Design constraints
 
 At the outset of the project, we established the importance of keeping the 100 Dinners program within the *alumni UBC* brand, rather than giving it a distinct identity.
 
-Because of this, I chose to base design of the microsite on layouts and page elements found elsewhere on the *alumni UBC* site. This had the added benefit of **streamlining the web design process,** allowing the team to focus our efforts on fine-tuning the service as a whole.
+Because of this, I based design of the microsite on layouts and page elements found elsewhere on the *alumni UBC* site. This had the added benefit of **streamlining the web design process,** allowing the team to focus our efforts on fine-tuning the service as a whole.
 </div>
 
 <!--
-### Primary UX challenge: simplify...
+
+### Primary challenge: Managing processes for host applications, event posting, RSVPs, and post-event reporting
+
+#### Problem: Risk of staff time lost to operational tasks
+
+In speaking with our counterparts at Johns Hopkins, they emphasized the risk of significant staff time lost to administrative tasks. At their program's busiest times, it required the equivalent of at least one full-time employee&mdash;an option we did not have.
+
+Wherever possible, we had to investigate methods for efficient service delivery and minimize operational overhead.
+
+#### Solution: Leverage automation
+The solution was deceptively simple: web forms.  
+
+
+Unfortunately, ePly did not provide an API for pushing data
 
 
 #### Mockups
@@ -118,8 +137,20 @@ Because of this, I chose to base design of the microsite on layouts and page ele
 ### Usability testing
 
 * Need for a country/region filter
+-->
 
 {% include markup-styles/callout--fullWidth.html headline="Results" %}
+
+
+![Collage from events](/uploads/100-Dinners-collage-min.jpg#full)
+
+### Expectations exceeded
+
+Despite our uncertainty on how 100 Dinners would be received, the program was unambiguously successful.
+
+In the end, we tallied **1,156 attendees at over 90 events around the world,** well-surpassing our goal of 1,000.
+
+<!--
 
 {% include markup-styles/callout--fullWidth.html headline="Reflection" %}
 * Event management platform did not have an accessible API, meaning that staff time was spent carrying over details from host application form
