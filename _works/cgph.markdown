@@ -50,7 +50,7 @@ I worked on this project as **researcher, lead designer,** and **product manager
 * Management (project leadership, direction of deliverables)
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight top-margin">
+<div class="callout left-highlight red top-margin">
 ### Challenge: no resources for research or testing
 
 I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
@@ -60,7 +60,7 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 {% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
 
-![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop-min.jpg#full)
+![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop-1920x1080.jpg#full)
 
 ### Business goals
 
@@ -113,6 +113,8 @@ This flowed naturally into a workshop with staff and stakeholders where we defin
 
 ![Provisional persona](/uploads/Provisional-Persona-min.png)
 
+### Journey maps
+
 For our main personas, we also developed provisional journey maps:
 
 ![Provisional journey map](/uploads/CGPH-Provisional-Journey-Map-min.png)
@@ -139,7 +141,7 @@ I completed my discovery phase with a heuristic analysis of the original website
 While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight top-margin">
+<div class="callout left-highlight red top-margin">
 ### Opportunity for improvement
 We were not able to validate any of the qualitative user details we assembled. Hopefully, this can be rectified in the future.
 </div>
@@ -163,7 +165,7 @@ The brand voice is warm and welcoming, guided by the idea that “the house is o
 
 {% include markup-styles/callout--fullWidth.html headline="Website Design" %}
 
-![Mobile-first design](/uploads/CGPH-Mobile-Mockups-min.jpg#full)
+![Mobile-first design](/uploads/CGPH-Mobile-Mockups-1920x1080.jpg#full)
 
 ### Defining website goals
 
@@ -221,7 +223,7 @@ Among the principles guided that guided my revised structure were:
 * Removing pages only intended for confirmed clients (e.g. information on usage policies for the venue) from the global architecture and blocking these pages from search engine indexing
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight bottom-margin top-margin">
+<div class="callout left-highlight red bottom-margin top-margin">
 ### Opportunity for improvement
 While the revised site structure is relatively shallow, there is still potential for its improvement through card sorting exercises with users.
 </div>
@@ -314,7 +316,7 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 ![Form interaction tracking results](/uploads/CGPH-Booking-form-abandonments-min.png)
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight bottom-margin top-margin">
+<div class="callout left-highlight red bottom-margin top-margin">
 ### Opportunities for improvement
 
 * Improve visibility on site - post-launch testing has shown the information on venue availability is hard-to-find unless users are already exploring the booking request page.
@@ -351,4 +353,6 @@ Since launching in August 2018, the the new website has resulted in several sign
 
 Anecdotally, several clients have specifically praised the new booking system, claiming that it made their process easy and enjoyable to complete.
 
+<!--
 {% include markup-styles/callout--fullWidth.html headline="Reflection" %}
+-->
