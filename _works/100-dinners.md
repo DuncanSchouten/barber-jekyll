@@ -146,7 +146,7 @@ The simplicity of the website meant that few problems were encountered when we e
 
 The one area that was improved based on user feedback was the inclusion of a dropdown on the page of dinner listings, allowing users to filter by region.
 
-* Need for a country/region filter
+<!-- * Need for a country/region filter -->
 
 
 {% include markup-styles/callout--fullWidth.html headline="Results" %}
