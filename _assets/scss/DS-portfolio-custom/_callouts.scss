@@ -1,12 +1,19 @@
 //----------------------------------------------
-// Red (left side accent)
+// Callouts
 //----------------------------------------------
 .callout {
 
   &.left-highlight {
     margin-left: -0.4em;
-    border-left: 0.2rem solid $color-CGPH-red;
     padding-left: .7em;
+
+    &.red {
+      border-left: 0.2rem solid $color-CGPH-red;
+    }
+
+    &.green {
+      border-left: 0.2rem solid $color-CGPH-green;
+    }
 
     & ul, ol, p:last-child {
       margin-bottom: 0 !important;
