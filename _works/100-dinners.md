@@ -115,29 +115,39 @@ At the outset of the project, we established the importance of keeping the 100 D
 Because of this, I based design of the microsite on layouts and page elements found elsewhere on the *alumni UBC* site. This had the added benefit of **streamlining the web design process,** allowing the team to focus our efforts on fine-tuning the service as a whole.
 </div>
 
-<!--
+
 
 ### Primary challenge: Managing processes for host applications, event posting, RSVPs, and post-event reporting
 
 #### Problem: Risk of staff time lost to operational tasks
 
-In speaking with our counterparts at Johns Hopkins, they emphasized the risk of significant staff time lost to administrative tasks. At their program's busiest times, it required the equivalent of at least one full-time employee&mdash;an option we did not have.
+In speaking with our counterparts at Johns Hopkins, they emphasized the risk of losing significant staff time to administrative tasks. At their program's busiest times, it required the equivalent of at least one full-time employee&mdash;an option we did not have.
 
 Wherever possible, we had to investigate methods for efficient service delivery and minimize operational overhead.
 
 #### Solution: Leverage automation
-The solution was deceptively simple: web forms.  
+The solution was deceptively simple: web forms.
 
+I worked with our development team to establish a process for automatically creating event postings with the details submitted by hosts. These were set to remain private until staff had approved their posting.
 
-Unfortunately, ePly did not provide an API for pushing data
+Once program staff had populated ePly&mdash;an RSVP management platform&mdash;with the event details and handed it off to hosts, putting the event live on the 100 Dinners website required only changing the privacy settings and copying in the ePly link.  
 
+![Event posting process](/uploads/100-Dinners-Event-Posting-Process.jpg)
 
-#### Mockups
+{::options parse_block_html="true" /}
+<div class="callout left-highlight red bottom-margin top-margin">
+#### Opportunity for improvement
+Unfortunately, ePly did not provide an API for pushing data. This meant that while operational complexity was reduced, preparing each event still required manual input.
+</div>
 
 ### Usability testing
 
+The simplicity of the website meant that few problems were encountered when we engaged people for "guerilla" usability testing.
+
+The one area that was improved based on user feedback was the inclusion of a dropdown on the page of dinner listings, allowing users to filter by region.
+
 * Need for a country/region filter
--->
+
 
 {% include markup-styles/callout--fullWidth.html headline="Results" %}
 
@@ -150,8 +160,7 @@ Despite our uncertainty on how 100 Dinners would be received, the program was un
 
 In the end, we tallied **1,156 attendees at over 90 events around the world,** well-surpassing our goal of 1,000.
 
-<!--
 
 {% include markup-styles/callout--fullWidth.html headline="Reflection" %}
-* Event management platform did not have an accessible API, meaning that staff time was spent carrying over details from host application form
--->
+
+This was a project where function took precedence over form. While I would have appreciated more time for front-end design (the finished product was really rather bland), our careful attention to efficient service delivery meant that the program operated far more smoothly than Hopkins'.
