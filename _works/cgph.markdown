@@ -4,7 +4,7 @@ title: Cecil Green Park House
 date: 2018-11-01 00:00:00 +0000
 sort_order: 0
 description: Project Management, Research, Branding, Design
-image: "/assets/images/placeholder-9.jpg#full"
+image: "/uploads/CGPH-Cover-Image-1920x1280-min.jpg#full"
 author: Duncan Schouten
 tags:
 - Dummy Text

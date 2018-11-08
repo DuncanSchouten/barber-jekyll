@@ -4,7 +4,7 @@ layout: portfolio-item
 description: Research, Service Design, UX Design
 author: Duncan Schouten
 date: 2018-11-02 00:00:00 +0000
-image: '/assets/images/placeholder-7.jpg'
+image: '/uploads/100-Dinners-Cover-1920x1280.jpg'
 tags: []
 
 ---
@@ -29,6 +29,8 @@ Working with a team of two *alumni UBC* events staff, I helped to evaluate and s
 * Front-end design
 
 {% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
+
+![Early 100 Dinners workshop notes](/uploads/100-Dinners-service-sketch.jpg#full)
 
 ### Audience definition
 Like all activities in the *alumni UBC 100* campaign, the 100 Dinners project was intended to help provide UBC alumni with opportunities to stay connected with their alma mater and engage with other graduates.
@@ -61,6 +63,8 @@ As a new, untested idea for *alumni UBC*, relatively few concrete business goals
 
 {% include markup-styles/callout--fullWidth.html headline="Service Design" %}
 
+![Service blueprint](/uploads/100-Dinners-Service-Blueprint.png#full)
+
 Rather than reinvent the wheel, we chose to build on Hopkins’ program model and address areas where they encountered difficulties.
 
 Our approach included:
@@ -70,9 +74,9 @@ Our approach included:
 * Incentivizing post-event reporting and photo submission with a prize giveaway, as well as providing an online form to ease the process
 
 ### Service blueprint
-We developed a detailed service blueprint over several iterations, giving a clear overview of staff and operational requirements:
+We developed a detailed service blueprint over several iterations (as seen above), giving a clear overview of staff and operational requirements.
 
-![Service blueprint](/uploads/100-Dinners-Service-Blueprint.png#full)
+
 
 
 {% include markup-styles/callout--fullWidth.html headline="Website Design" %}
