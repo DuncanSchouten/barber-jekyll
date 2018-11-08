@@ -84,14 +84,10 @@ pagination:
   <div class="grid">
     <h3 class="related__title">Next Project</h3>
     <div class="">
-      <h2 class="">{{ next.title }}</h2>
+      <h2 class="related__title" style="margin-bottom: 0.6em;">{{ next.title }}</h2>
       <div class="related__links">
-        <div class="button homepage">
-          <a href=" {{ '/' | prepend: site.baseurl }} ">Back to the homepage</a>
-        </div>
-        <div class="button next-project">
-          <a href=" {{ next.url }} ">Read case study</a>
-        </div>
+        <a class="button homepage" href=" {{ '/' | prepend: site.baseurl }} ">Back to homepage</a>
+        <a class="button next-project" href=" {{ next.url }} ">Read case study</a>
       </div>
     </div>
   </div>
