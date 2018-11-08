@@ -3,7 +3,7 @@ layout: portfolio-item
 title: Cecil Green Park House
 date: 2018-11-01 00:00:00 +0000
 sort_order: 0
-description: Project Management, Research, Branding, Design
+description: Research, Branding, Design, Project Management
 image: "/uploads/CGPH-Cover-Image-1920x1280-min.jpg#full"
 author: Duncan Schouten
 tags:
@@ -342,9 +342,9 @@ I designed all pages upward from their mobile layouts, guided by several princip
 
 {% include markup-styles/callout--fullWidth.html headline="Results" %}
 Since launching in August 2018, the the new website has resulted in several significant improvements over the same period in the previous year:
-* 70% increase in online booking requests.
-* 20% increase in booking requests for business or other non-wedding events.
-* 114% increase in unique page views on the booking request page.
+* 70% increase in online booking requests
+* 20% increase in booking requests for business or other non-wedding events
+* 114% increase in unique page views on the booking request page
 * 64% increase in unique page views from mobile and tablet devices
 * 18% decrease in the site-wide bounce rate (21% for mobile and tablet)
 * 48% increase in unique page views on the photo gallery directory
