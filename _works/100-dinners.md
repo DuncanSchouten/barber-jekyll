@@ -28,14 +28,14 @@ With a limited budget and minimal staff resources for operation, however, **the 
 
 #### Our approach
 
-Our solution was informed through a combination of discussions with potential participants and extensive dialogue with staff at another organization that ran a similar program. By reducing the service to only its essential parts and leveraged automation wherever possible, we established a model that met core business and user needs with little operational overhead.
+Our solution was informed through a combination of discussions with potential participants and extensive dialogue with staff at another organization that ran a similar program. By **reducing the service to only its essential parts and leveraging automation wherever possible,** we established a model that met core business and user needs with little operational overhead.
 
 ### My Role
 Working with a team of two *alumni UBC* events staff, I helped to evaluate and synthesize pre-existing research, consult with stakeholders on program requirements, and devise an blueprint for efficient service delivery. I then designed a lightweight microsite for the program within the *alumni UBC* brand and assisted IT Services in its development and launch.
 
 ##### Main areas of responsibility:
 * Research (evaluate and synthesize)
-* Service design (mapping processes for touchpoints across the program ecosystem)
+* Service design (map out processes for touchpoints across the program ecosystem)
 * Prototyping and usability testing
 * Front-end design
 
@@ -50,9 +50,9 @@ To that end, **the target audience was broadly defined as inclusive of all alumn
 
 
 ### Constituent research
-In the early planning phases for *alumni UBC 100*, a series of focus groups were carried out with a variety of alumni. Among other goals, the discussions were intended to gauge interest in possible activities to be pursued in the campaign. With few exceptions, the idea of organizationally-supported, alumni-hosted dinner events was of interest to the majority of participants.
+In the early planning phases for *alumni UBC 100*, a series of focus groups were carried out with a variety of alumni. Among other goals, the discussions were intended to gauge interest in possible activities to be pursued in the campaign. With few exceptions, **the idea of organizationally-supported, alumni-hosted dinner events was of interest to the majority of participants.**
 
-Some months later, a series of emails were sent to constituents explaining the 100 Dinners program and inviting alumni to submit a provisional request to host. From this outreach, we received 128 expressions of interest—enough to feel confident proceeding with development of the program.
+Some months later, a series of emails were sent to constituents explaining the 100 Dinners program and inviting alumni to submit a provisional request to host. From this outreach, we received **128 expressions of interest**—enough to feel confident proceeding with development of the program.
 
 ### Interviews with counterparts at Johns Hopkins University
 The 100 Dinners concept was originally developed by the Johns Hopkins Bloomberg School of Public Health for their own centenary. In our discovery phase, the *alumni UBC* 100 Dinners program lead established an ongoing dialogue with her counterpart at Hopkins to learn what did and didn’t work in their implementation.
@@ -103,7 +103,7 @@ We developed a detailed service blueprint over several iterations (seen above), 
 The 100 Dinners microsite was intended to serve several key functions:
 * Facilitating host applications and post-event reporting
 * Surfacing details on upcoming dinners
-* Pass guests to the appropriate RSVP page
+* Passing guests to the appropriate RSVP page
 * Showcasing photos from past events
 
 {::options parse_block_html="true" /}
@@ -121,7 +121,7 @@ Because of this, I based design of the microsite on layouts and page elements fo
 
 #### Problem: Risk of staff time lost to operational tasks
 
-In speaking with our counterparts at Johns Hopkins, they emphasized the risk of losing significant staff time to administrative tasks. At their program's busiest times, it required the equivalent of at least one full-time employee&mdash;an option we did not have.
+In speaking with our counterparts at Johns Hopkins, they emphasized the **risk of losing significant staff time** to administrative tasks. At their program's busiest times, it required the equivalent of at least one full-time employee&mdash;an option we did not have.
 
 Wherever possible, we had to investigate methods for efficient service delivery and minimize operational overhead.
 
@@ -144,7 +144,7 @@ Unfortunately, ePly did not provide an API for pushing data. This meant that whi
 
 The simplicity of the website meant that few problems were encountered when we engaged people for "guerilla" usability testing.
 
-The one area that was improved based on user feedback was the inclusion of a dropdown on the page of dinner listings, allowing users to filter by region.
+The one area that was improved based on user feedback was the inclusion of a dropdown on the page of dinner listings, allowing users to filter by region. This feature was implemented before launch
 
 <!-- * Need for a country/region filter -->
 
