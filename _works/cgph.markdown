@@ -358,26 +358,30 @@ Anecdotally, several clients have specifically **praised the new booking system,
 
 While the final product is relatively modest, this project was surprisingly complex. Operating largely as a “UX team of one”, I found its greatest challenge to be the absence of resources for research and testing. I was able to overcome this--to the best of my ability&mdash;by working closely with venue staff to uncover their accumulated knowledge on the characteristics and behaviour of their usual clients. Collaborative workshop sessions, in particular, were particularly effective in drawing out new insights.
 
-Looking back, I feel this project brought a few key takeaways:
+Looking back, this project brought a few key takeaways:
 
-1. Accept imperfect research and testing
-Any insights that can be validated, even if acquired through unconventional methods, can be useful for informing the design process. In this case, data from Google Analytics corroborated and gave added weight to the anecdotal insights of venue staff.
+1. ##### Accept imperfect research and testing
 
-And while I was not able to test my designs with carefully screened participants matching our provisional personas, bringing them to a general audience allowed me to identify and refine their most problematic areas.
+   Any insights that can be validated, even if acquired through unconventional methods, can be useful for informing the design process. In this case, data from Google Analytics corroborated and gave added weight to the anecdotal insights of venue staff.
 
-2. Follow your gut, but validate assumptions
-From the outset of the project, I was instinctively convinced that the multi-step online booking system was a significant impediment to the site’s usability. Nevertheless, I did not want to strongly advocate for its improvement until I had investigated whether I was correct.
+   And while I was not able to test my designs with carefully screened participants matching our provisional personas, bringing them to a general audience allowed me to identify and refine their most problematic areas.
 
-Through a review of analytics data and some informal usability testing, my suspicions were confirmed. Which introduces my next lesson...
+2. ##### Follow your gut, but validate assumptions
 
+   From the outset of the project, I was instinctively convinced that the multi-step online booking system was a significant impediment to the site’s usability. Nevertheless, I did not want to strongly advocate for its improvement until I had investigated whether I was correct.
 
-3. Fight for the things to get right the first time
-Even after identifying the negative impact of the booking system, stakeholders viewed the solution as a two-phase process: design and launch the new site with an aesthetically-improved version of the existing system, then improve it later.
-
-Knowing that I had numerous other projects in my queue, I saw it as unlikely that “version two” would be coming any time soon -- and if we didn’t improve the site’s core functionality, a simple visual refresh would have limited impact on business goals.
-
-I continued to build my case and eventually secured support to make the booking system a priority in the new design. Though there is still room for its improvement, the new solution has helped the venue increase its online booking requests by 70%.
+   Through a review of analytics data and some informal usability testing, my suspicions were confirmed. Which introduces my next lesson...
 
 
-4. Build in time for scope creep
-As much as we try to avoid it, scope creep is inevitable. Learning that a key requirement for the booking calendar (accommodating tentative bookings) was overlooked resulted in a significant setback in an already-tight design schedule. I should have better-accounted for these sort of events in my project timeline.
+3. ##### Fight for the things to get right the first time
+
+   Even after identifying the negative impact of the booking system, stakeholders viewed the solution as a two-phase process: design and launch the new site with an aesthetically-improved version of the existing system, then improve it later.
+
+   Knowing that I had numerous other projects in my queue, I saw it as unlikely that “version two” would be coming any time soon -- and if we didn’t improve the site’s core functionality, a simple visual refresh would have limited impact on business goals.
+
+   I continued to build my case and eventually secured support to make the booking system a priority in the new design. Though there is still room for its improvement, the new solution has helped the venue increase its online booking requests by 70%.
+
+
+4. ##### Build in time for scope creep
+
+   As much as we try to avoid it, scope creep is inevitable. Learning that a key requirement for the booking calendar (accommodating tentative bookings) was overlooked resulted in a significant setback in an already-tight design schedule. I should have better-accounted for these sort of events in my project timeline.
