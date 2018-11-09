@@ -356,7 +356,9 @@ Anecdotally, several clients have specifically **praised the new booking system,
 
 {% include markup-styles/callout--fullWidth.html headline="Reflection" %}
 
-While the final product is relatively modest, this project was surprisingly complex. Operating largely as a “UX team of one”, I found its greatest challenge to be the absence of resources for research and testing. I was able to overcome this--to the best of my ability&mdash;by working closely with venue staff to uncover their accumulated knowledge on the characteristics and behaviour of their usual clients. Collaborative workshop sessions, in particular, were particularly effective in drawing out new insights.
+While the final product is relatively modest, this project was surprisingly complex.
+
+Operating largely as a “UX team of one”, I found its greatest challenge to be the absence of resources for research and testing. I was able to overcome this&mdash;to the best of my ability&mdash;by working closely with venue staff to uncover their accumulated knowledge on the characteristics and behaviour of their usual clients. Collaborative workshop sessions, in particular, were particularly effective in drawing out new insights.
 
 Looking back, this project brought a few key takeaways:
 
