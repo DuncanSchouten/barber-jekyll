@@ -24,9 +24,11 @@ ol {
 
     font-size: 1.1em;
 
+    /*
     @media (min-width: $mq-small) {
       font-size: 1.25em;
     }
+    */
 
     & > li {
       position: relative;
@@ -42,8 +44,7 @@ ol {
 
       p {
         margin-bottom: 0;
-
-        font-size: inherit;
+        font-size: 1.1em;
       }
     }
   }
