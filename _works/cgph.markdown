@@ -30,9 +30,9 @@ tags:
 Cecil Green Park House&mdash;a well-known Vancouver event venue&mdash;was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
 
 #### Our approach
-While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to clarify the venue's business goals, brand identity, target audiences, and local competition.
+While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to **clarify the venue's business goals, brand identity, target audiences, and local competition.**
 
-Then, using a human-centered design approach and validating assumptions wherever possible, I undertook design of a new website and a fully-reimagined online booking process.
+Then, using a human-centered design approach and validating assumptions wherever possible, I undertook **design of a new website and a fully-reimagined online booking process.**
 
 
 ### My role
@@ -53,7 +53,7 @@ I worked on this project as **researcher, lead designer,** and **product manager
 <div class="callout left-highlight red top-margin">
 ### Challenge: no resources for research or testing
 
-I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring launch of a minimum viable product with post-hoc testing over preliminary user research.
+I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring **launch of a minimum viable product with post-hoc testing over preliminary user research.**
 
 Nonetheless, I incorporated as much research and testing into my process as was possible, operating on the principle that some data is better than none.
 </div>
@@ -160,7 +160,7 @@ After several iterations, we arrived on a look and feel that emphasized whitespa
 
 ### Tone of voice
 
-The brand voice is warm and welcoming, guided by the idea that “the house is old, the audience isn’t.” Working in tandem with the imagery, we evoke the unique sensory experiences found across the house grounds.
+The brand voice is warm and welcoming, guided by the idea that **“the house is old, the audience isn’t.”** Working in tandem with the imagery, we evoke the unique sensory experiences found across the house grounds.
 
 
 {% include markup-styles/callout--fullWidth.html headline="Website Design" %}
@@ -233,17 +233,17 @@ While the revised site structure is relatively shallow, there is still potential
 #### Problem: Frustrating, multi-step process for checking availability
 Given the strong emphasis by all stakeholders on the goal of increasing venue bookings, the online booking request system is, perhaps, the website’s most important functional element.
 
-The original system, however, forced users through a multi-step process to check venue availability:
+The original system, however, **forced users through a multi-step process** to check venue availability:
 
 ![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png){:width="500px"}
 
 This created two problems:
-1. Users on mobile devices were particularly averse to this (as verified in the data for site drop-offs).
-2. The booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked.
+1. Users on mobile devices were particularly averse to this (as verified in the data for site drop-offs)
+2. The booking calendar file was only periodically updated&mdash;meaning that visitors often made requests for dates that had already been booked
 
 #### Solution: Design a system for surfacing real-time booking data
 
-I consulted with venue staff to investigate the parameters of their backend booking system and ideate possible approaches. Eventually, we settled on the idea of a calendar interface that surfaced real-time booking information. This was further distilled to a few core requirements:
+I consulted with venue staff to investigate the parameters of their backend booking system and ideate possible approaches. Eventually, we settled on the idea of a **calendar interface that surfaced real-time booking information.** This was further distilled to a few core requirements:
 
 * Each date has three possible booking periods (morning, evening, and full-day)
 * Calendar must visually differentiate between dates with partial and full-day bookings
@@ -275,7 +275,7 @@ To accommodate this, I revised my design to indicate dates with holds using cros
 
 
 #### First iteration
-I worked with IT services to determine which data could be extracted from the venue's backend booking system. This lead to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
+I worked with IT services to **determine which data could be extracted from the venue's backend booking system.** This led to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
 
 ![Booking calendar date picker v1](/uploads/cgph_booking_calendar-v1-cropped.png)
 
@@ -330,7 +330,7 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 
 While the original site theme was responsive, it was only designed around a desktop layout. This led to a frustrating mobile experience, with long-scrolling pages, poorly-structured content, and long page load times.
 
-As a result, the site-wide bounce rate was considerably higher for mobile users than for other groups.
+As a result, **the site-wide bounce rate was considerably higher for mobile users** than for other groups.
 
 #### Solution: A mobile-first design approach
 
@@ -351,7 +351,7 @@ Since launching in August 2018, the the new website has resulted in several sign
 * 18% decrease in the site-wide bounce rate (21% for mobile and tablet)
 * 48% increase in unique page views on the photo gallery directory
 
-Anecdotally, several clients have specifically praised the new booking system, claiming that it made their process easy and enjoyable to complete.
+Anecdotally, several clients have specifically **praised the new booking system,** claiming that **it made their process easy and enjoyable** to complete.
 
 <!--
 {% include markup-styles/callout--fullWidth.html headline="Reflection" %}
