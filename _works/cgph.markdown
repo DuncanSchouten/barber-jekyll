@@ -351,7 +351,7 @@ Since launching in August 2018, the the new website has resulted in several sign
 * 18% decrease in the site-wide bounce rate (21% for mobile and tablet)
 * 48% increase in unique page views on the photo gallery directory
 
-Anecdotally, several clients have specifically **praised the new booking system,** claiming that **it made their process easy and enjoyable** to complete.
+Anecdotally, several clients have **praised the new booking system, saying that it made their process easy and enjoyable** to complete.
 
 
 {% include markup-styles/callout--fullWidth.html headline="Reflection" %}
