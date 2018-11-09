@@ -107,7 +107,7 @@ Complementing the SWOT analysis was research on the most salient information of 
 
 Lacking budget for conducting research with past or prospective clients, I relied on a variety of alternate approaches.
 
-Interviews with venue staff&mdash;the business’s primary client liaisons&mdash;were critical to providing initial demographic data on the primary audiences.
+Interviews with venue staff&mdash;the business’s primary client liaisons&mdash;were **critical to providing initial demographic data** on the primary audiences.
 
 This flowed naturally into a workshop with staff and stakeholders where we defined several provisional user personas:
 
