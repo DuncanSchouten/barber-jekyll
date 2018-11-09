@@ -377,12 +377,11 @@ Looking back, this project brought a few key takeaways:
 
 3. ##### Fight for the things to get right the first time
 
-   Even after identifying the negative impact of the booking system, stakeholders viewed the solution as a two-phase process: design and launch the new site with an aesthetically-improved version of the existing system, then improve it later.
+   Even after identifying the negative impact of the booking system, stakeholders viewed the solution as a two-phase process: design and launch the new site with aesthetic improvements, then fix the functionality later.
 
    Knowing that I had numerous other projects in my queue, I saw it as unlikely that “version two” would be coming any time soon -- and if we didn’t improve the site’s core functionality, a simple visual refresh would have limited impact on business goals.
 
-   I continued to build my case and eventually secured support to make the booking system a priority in the new design. Though there is still room for its improvement, the new solution has helped the venue increase its online booking requests by 70%.
-
+   I continued to build my case and eventually secured support to make the booking system a priority of the new design. Though there is still room for its improvement, the new solution has helped the venue increase its online booking requests by 70% since launch.
 
 4. ##### Build in time for scope creep
 
