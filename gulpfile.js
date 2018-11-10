@@ -69,7 +69,7 @@ gulp.task('zip', () => {
     '!./.git',
     '!./node_modules/**'
   ])
-  .pipe(zip('barber-jekyll.zip'))
+  .pipe(zip('barber-jekyll-DS-theme.zip'))
   .pipe(gulp.dest('../'))
 });
 
