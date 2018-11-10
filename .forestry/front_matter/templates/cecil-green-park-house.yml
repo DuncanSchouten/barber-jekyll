@@ -1,5 +1,5 @@
 ---
-label: Work
+label: Portfolio Work
 hide_body: false
 is_partial: false
 fields:
@@ -7,7 +7,7 @@ fields:
   label: Layout
   type: text
   hidden: false
-  default: page
+  default: portfolio-item
 - name: title
   label: Title
   type: text
@@ -33,6 +33,9 @@ fields:
   type: text
   hidden: false
   default: Duncan Schouten
+- type: number
+  name: sort_order
+  label: Sort order
 - name: tags
   label: Tags
   type: tag_list
