@@ -65,32 +65,23 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 ### Business goals
 
-The discovery process began with a series of interviews and workshops with staff and stakeholders to clarify the business's long-term goals, including:
+The discovery process began with interviews and workshops with venue staff and stakeholders to clarify the business's long-term goals. Two goals, in particular, were emphasized:
 
-* Reach capacity of 100 weddings per season
-* Grow the number of corporate retreats and other business events
-* Increase number of holiday parties
-* Keep number of bookings for TV/movie filming at current pace
-
-
+1. Reach capacity of 100 weddings per season
+2. Grow the number of corporate retreats and other business events
 
 <!--
 <div class="content-grid double" data-columns>
-  <div>
-  <h3>SWOT analysis</h3>
-  <p>Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats.</p>
-
-  ![SWOT Analysis](/uploads/SWOT-Analysis-Blurred-min.png)
-  </div>
-  <div>
-  <h3>Competitive research</h3>
-
-  <p>Early in the project, I researched the most salient information on the venue’s local competition.</p>
-
-  ![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
-  </div>
+<div>
+<h3>SWOT analysis</h3>
+<p>Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats.</p>
+</div>
+<div>
+![SWOT Analysis](/uploads/SWOT-Analysis-Blurred-min.png)
+</div>
 </div>
 -->
+
 
 ### SWOT analysis
 
