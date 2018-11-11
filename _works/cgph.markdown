@@ -37,7 +37,7 @@ Then, using a human-centered design approach and validating assumptions wherever
 
 ### My role
 
-I worked on this project as **researcher, lead designer,** and **product manager.**
+I worked on this project as **researcher, lead designer,** and **manager** as part of my employment with *alumni UBC.*
 
 #### Main areas of responsibility:
 
@@ -292,7 +292,7 @@ To accommodate this, I revised my design to indicate dates with holds using cros
 I took a prototype of this design to several individuals for “guerilla” usability testing, asking them to perform several tasks and answer questions on the system’s functionality.
 
 #### Among the results, I found that:
-* Forcing users to first select a date before learning the availability of their preferred time slot added cognitive load to the process, particularly for mobile users.
+* Requiring users to first select a date before learning the availability of their preferred time slot added cognitive load to the process, particularly for those on mobile devices.
 * Differentiating crosshatching from solid colours was difficult for some users with vision impairments.
 
 #### Third iteration and validation
