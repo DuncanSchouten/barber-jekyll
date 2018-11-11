@@ -348,12 +348,16 @@ I designed all pages upward from their mobile layouts, guided by several princip
 {: .portfolio-item .section-title}
 
 Since launching in August 2018, the the new website has resulted in several significant improvements over the same period in the previous year:
+
+{::options parse_block_html="true" /}
+<div class="callout left-highlight green bottom-margin">
 * **70% increase in online booking requests**
 * 20% increase in booking requests for business or other non-wedding events
 * 114% increase in unique page views on the booking request page
 * 64% increase in unique page views from mobile and tablet devices
 * 18% decrease in the site-wide bounce rate (21% for mobile and tablet)
 * 48% increase in unique page views on the photo gallery directory
+</div>
 
 Anecdotally, several clients have **praised the new booking system, saying that it made their process easy and enjoyable** to complete.
 
