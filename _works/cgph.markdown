@@ -144,7 +144,10 @@ While I knew this project would require a fully-redesigned website, heuristic an
 {::options parse_block_html="true" /}
 <div class="callout left-highlight red top-margin">
 ### Opportunity for improvement
-We were not able to validate any of the qualitative user details we assembled. Hopefully, this can be rectified in the future.
+
+Without the opportunity to directly engage with individuals from our target audiences, we were not able to validate any of the qualitative user details assembled in the discovery phase.
+
+Hopefully, this can be rectified in the future.
 </div>
 
 ## Branding
@@ -226,7 +229,7 @@ Among the principles guided that guided my revised structure were:
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight red bottom-margin top-margin">
-### Opportunity for improvement
+#### Opportunity for improvement
 While the revised site structure is relatively shallow, there is still potential for its improvement through card sorting exercises with users.
 </div>
 
@@ -319,7 +322,7 @@ To ensure the ongoing optimization of the booking form and gain insights into it
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight red bottom-margin top-margin">
-### Opportunities for improvement
+#### Opportunities for improvement
 
 * Improve visibility on site - post-launch testing has shown the information on venue availability is hard-to-find unless users are already exploring the booking request page.
 * Identify methods for clarifying ongoing user confusion on the definition of booking holds.
