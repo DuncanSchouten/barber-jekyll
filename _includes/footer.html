@@ -5,6 +5,10 @@
     <div class="footer__container">
 
       {% include social.html %}
+
+      <div class="footer__container--copyright">
+        <p>&copy; {{ 'now' | date: "%Y" }} {% if site.author %} {{ site.author[0]["name" }} {% endif %}</p>
+      </div>
     </div>
   </div>
 </footer>
