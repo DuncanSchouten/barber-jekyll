@@ -58,7 +58,8 @@ I was brought into the project several years after stakeholders identified the n
 Nonetheless, I incorporated as much research and testing into my process as was possible, operating on the principle that some data is better than none.
 </div>
 
-{% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
+## Research and Discovery
+{: .portfolio-item .section-title}
 
 ![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop-1920x1080.jpg#full)
 
@@ -146,7 +147,8 @@ While I knew this project would require a fully-redesigned website, heuristic an
 We were not able to validate any of the qualitative user details we assembled. Hopefully, this can be rectified in the future.
 </div>
 
-{% include markup-styles/callout--fullWidth.html headline="Branding" %}
+## Branding
+{: .portfolio-item .section-title}
 
 ![Style Tile](/uploads/CGPH-Style-Tile-1920-min.png#full)
 
@@ -162,8 +164,8 @@ After several iterations, we arrived on a look and feel that emphasized whitespa
 
 The brand voice is warm and welcoming, guided by the idea that **“the house is old, the audience isn’t.”** Working in tandem with the imagery, we evoke the unique sensory experiences found across the house grounds.
 
-
-{% include markup-styles/callout--fullWidth.html headline="Website Design" %}
+## Website Design
+{: .portfolio-item .section-title}
 
 ![Mobile-first design](/uploads/CGPH-Mobile-Mockups-1920x1080.jpg#full)
 
@@ -342,7 +344,9 @@ I designed all pages upward from their mobile layouts, guided by several princip
 4. Edit copy blocks to their shortest length
 
 
-{% include markup-styles/callout--fullWidth.html headline="Results" %}
+## Results
+{: .portfolio-item .section-title}
+
 Since launching in August 2018, the the new website has resulted in several significant improvements over the same period in the previous year:
 * **70% increase in online booking requests**
 * 20% increase in booking requests for business or other non-wedding events
@@ -354,7 +358,8 @@ Since launching in August 2018, the the new website has resulted in several sign
 Anecdotally, several clients have **praised the new booking system, saying that it made their process easy and enjoyable** to complete.
 
 
-{% include markup-styles/callout--fullWidth.html headline="Reflection" %}
+## Reflection
+{: .portfolio-item .section-title}
 
 While the final product is relatively modest, this project was surprisingly complex.
 

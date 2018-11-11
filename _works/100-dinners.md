@@ -39,7 +39,8 @@ Working with a team of two *alumni UBC* events staff, I helped to evaluate and s
 * Prototyping and usability testing
 * Front-end design
 
-{% include markup-styles/callout--fullWidth.html headline="Research and Discovery" %}
+## Research and Discovery
+{: .portfolio-item .section-title}
 
 ![Early 100 Dinners workshop notes](/uploads/100-Dinners-service-sketch-1920x1080.jpg#full)
 
@@ -78,7 +79,8 @@ The 100 Dinners concept was originally developed by the Johns Hopkins Bloomberg 
 As a new, untested idea for *alumni UBC*, relatively few concrete business goals were set for the inaugural series of 100 Dinners. The single measurable target we established was a goal of **1,000 total attendees across all events.**
 
 
-{% include markup-styles/callout--fullWidth.html headline="Service Design" %}
+## Service Design
+{: .portfolio-item .section-title}
 
 ![Service blueprint](/uploads/100-Dinners-Service-Blueprint.png#full)
 
@@ -95,8 +97,8 @@ We developed a detailed service blueprint over several iterations (seen above), 
 
 
 
-
-{% include markup-styles/callout--fullWidth.html headline="Website Design" %}
+## Website Design
+{: .portfolio-item .section-title}
 
 ### Key functions
 
@@ -148,8 +150,8 @@ The one area that was improved based on user feedback was the inclusion of a dro
 
 <!-- * Need for a country/region filter -->
 
-
-{% include markup-styles/callout--fullWidth.html headline="Results" %}
+## Results
+{: .portfolio-item .section-title}
 
 
 ![Collage from events](/uploads/100-Dinners-collage-min.jpg#full)
@@ -161,6 +163,7 @@ Despite our uncertainty on how 100 Dinners would be received, the program was un
 In the end, we tallied **1,156 attendees at over 90 events around the world,** well-surpassing our goal of 1,000.
 
 
-{% include markup-styles/callout--fullWidth.html headline="Reflection" %}
+## Reflection
+{: .portfolio-item .section-title}
 
 This was a project where function took precedence over form. While I would have appreciated more time for front-end design (the finished product was really rather bland), our careful attention to efficient service delivery meant that the program operated far more smoothly than Hopkins'.
