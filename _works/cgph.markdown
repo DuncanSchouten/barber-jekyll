@@ -91,7 +91,7 @@ Next, I undertook a top-level analysis of the business’s strengths, weaknesses
 
 ### Competitive research
 
-Complementing the SWOT analysis was research on the most salient information of the venue’s local competition:
+Complementing the SWOT analysis was research on the most salient information of the venue’s local competition. **A key takeaway from this was learning that no competitors offered real-time information on their venue's availability.**
 
 ![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
 
