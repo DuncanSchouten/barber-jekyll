@@ -136,7 +136,7 @@ While I knew this project would require a fully-redesigned website, heuristic an
 <div class="callout left-highlight red top-margin">
 ### Opportunity for improvement
 
-Without the opportunity to directly engage with individuals from our target audiences, we were not able to validate any of the qualitative user details assembled in the discovery phase.
+No matter how well-informed, all research on the venue's target audiences was from secondary sources. Without the opportunity to directly engage with users, we were not able to validate any of the qualitative details assembled in the discovery phase.
 
 Hopefully, this can be rectified in the future.
 </div>
