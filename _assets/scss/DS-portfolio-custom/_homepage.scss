@@ -114,13 +114,13 @@
 
 #about .about-me__details--photo {
   width: 100%;
-  min-height: 20vh;
+  min-height: 60vmin;
   margin-bottom: 2em;
   background-image: url("/uploads/portfolio-bio-shot.jpg");
   background-size: cover;
   background-origin: content-box;
   background-repeat: no-repeat;
-  background-position: bottom left;
+  background-position: center left;
 }
 
 #about .about-me__details--bio {
@@ -141,6 +141,7 @@
 
   #about .about-me__details--photo {
     order: 2;
+    min-height: 0;
     width: 50%;
     margin-bottom: 0;
     padding-left: 1em;
