@@ -31,7 +31,7 @@
 
   }
 
-  #hero h1, h2 {
+  #hero h1, #hero h2 {
 
   }
 }
@@ -49,7 +49,7 @@
     padding: 4em 1em 4em;
   }
 
-  #hero h1, h2 {
+  #hero h1, #hero h2 {
     max-width: 60%;
   }
 
@@ -64,7 +64,7 @@
 
   }
 
-  #hero h1, h2 {
+  #hero h1, #hero h2 {
 
   }
 }
@@ -82,7 +82,7 @@
   margin-bottom: 2rem;
 }
 
-#about ul, ol {
+#about ul, #about ol {
   margin-left: 1em;
   margin-bottom: 0.75em;
 }
@@ -92,7 +92,7 @@
 }
 
 @media screen and (min-width: 54em) {
-  #about ul, ol {
+  #about ul, #about ol {
     margin-left: 0;
   }
 }
