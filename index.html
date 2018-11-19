@@ -13,12 +13,16 @@ pagination:
     text-align: center;
   }
 
+  #about .content {
+    padding: 5em 1em 6em;
+  }
+
   #hero h1 {
     font-family: lora, serif;
     font-size: 2.5em;
     line-height: 1.3em;
     letter-spacing: -1px;
-    margin-bottom: 0.75em;
+    margin-bottom: 2rem;
   }
 
   #hero h2 {
@@ -28,7 +32,7 @@ pagination:
   }
 
   @media screen and (min-width: 22em) {
-    #hero .content {
+    #hero .content, #about .content {
       padding: 6em 1em 6em;
 
     }
@@ -39,24 +43,27 @@ pagination:
   }
 
   @media screen and (min-width: 32em) {
-    #hero .content {
-      padding: 6em 2em 6em;
+    #hero .content, #about .content {
+      padding: 4em 2em 4em;
       text-align: left;
+    }
+
+  }
+
+  @media screen and (min-width: 54em) {
+    #hero .content, #about .content {
+      padding: 4em 1em 4em;
     }
 
     #hero h1, h2 {
       max-width: 60%;
     }
-  }
 
-  @media screen and (min-width: 54em) {
-    #hero .content {
-      padding: 6em 1em 6em;
+    #about .content {
+      /* max-width: 50%; */
     }
 
-    #hero h1, h2 {
-
-    }
+    #about
   }
 
   @media screen and (min-width: 64em) {
@@ -69,8 +76,36 @@ pagination:
     }
   }
 
+  #work.posts {
+    padding: 4em 1em 4em;
+  }
+
+  #about h2 {
+
+  }
+
+  #about .about-me {
+    margin-top: 0.75em;
+    margin-bottom: 2rem;
+  }
+
+  #about ul, ol {
+    margin-left: 1em;
+    margin-bottom: 0.75em;
+  }
+
+  #about li:not(:last-child) {
+    margin-bottom: 0.75em;
+  }
+
+  @media screen and (min-width: 54em) {
+    #about ul, ol {
+      margin-left: 0;
+    }
+  }
+
   .featured-work {
-      margin-top: 0.75em;
+    margin-top: 0.75em;
   }
 
   @media screen and (min-width: 91em) {
@@ -79,12 +114,67 @@ pagination:
     }
   }
 
+  #about .about-me__details {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #about .about-me__details--photo {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+
+  #about .about-me__details--bio {
+    width: 100%;
+  }
+
+  @media screen and (min-width: 54em) {
+    #about .about-me__details {
+      flex-direction: row;
+    }
+
+    #about .about-me__details--photo {
+      order: 2;
+      width: 50%;
+      margin-bottom: 0;
+      padding-left: 1em;
+      padding-right: 1em;
+    }
+
+    #about .about-me__details--bio {
+      order: 1;
+      width: 50%;
+    }
+  }
+
+  /*
+  #about .about-me__details[data-columns]::before {
+	   content: '1 .column.size-1of1';
+  }
+
+  @media screen and (min-width: 54em) {
+    #about .about-me__details[data-columns]::before {
+  	   content: '2 .column.size-1of2';
+    }
+  }
+  */
+
+  /* These are the classes that are going to be applied:
+  .column { float: left; }
+  .size-1of2 { width: 50%; }
+
+  #about .about-me__details::after {
+    content: "";
+    display: table;
+    clear: both
+  }
+  */
 </style>
 
 <!-- The main content area -->
 <section id="hero">
-  <div class="content">
-    <div class="grid-xlarge">
+  <div class="grid-xlarge">
+    <div class="content">
       <h1>I'm Duncan, a user experience designer in Vancouver, BC.</h1>
       <h2>Systems-thinker with an eye for the details. I work across channels to help solve the right problems, at the right time, for the right people.</h2>
     </div>
@@ -93,18 +183,55 @@ pagination:
 
 <section id="work" class="posts" style="background: #f2f2f2;">
   <div class="grid-xlarge">
-    <div class="featured-work">
-      <h2>Featured Work</h2>
-    </div>
-    <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
-      {% for post in paginator.posts %}
+    <div class="content">
+      <div class="featured-work">
+        <h2>Featured Work</h2>
+      </div>
+      <div class="posts__container" itemscope itemtype="http://schema.org/Blog" data-columns>
+        {% for post in paginator.posts %}
 
-        <!-- The tag below includes the markup for each post - partials/post-card.html -->
-        {% include post-card.html %}
+          <!-- The tag below includes the markup for each post - partials/post-card.html -->
+          {% include post-card.html %}
 
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
   </div>
 
   {% include pagination.html %}
+</section>
+
+<section id="about">
+  <div class="grid-xlarge">
+    <div class="content">
+      <div class="about-me">
+        <h2>About Me</h2>
+      </div>
+      <div class="about-me__details">
+        <div class="about-me__details--photo">
+          <img src="/uploads/portfolio-bio-shot.jpg">
+        </div>
+        <div class="about-me__details--bio">
+          <div>
+            <p>Structure and form. Collaboration and curiosity. The big picture and the details. And, above all, a passion for the creation of meaningful experiences.
+
+            <p>A designer by practice and composer by training, these concerns have guided me through both halves of my career. Together, they form the backbone of my design philosophy:
+
+            <ul>
+              <li><h3>Respect the user. If someone has given you their time, you owe them the best experience you can provide.</h3></li>
+              <li><h3>Know your business before serving others. Without a strong brand foundation, your products will suffer.</h3></li>
+              <li><h3>Solve the right problems. Don’t stop digging until you understand both “what” and “why”.</h3></li>
+            </ul>
+
+            <p>I believe that the best teams are made of people who whose work doesn’t fit neatly into a single box. This has motivated me to build a broad skillset—from research and strategy through design, development, and launch.</p>
+
+            <p>Away from the computer, I try to spend as much time as I can in the mountains. When I’m at home, though, you can often find me using my musical training to sing songs for, and about, my cats.</p>
+
+            <p><a class="popup__open">Get in touch</a> if you’d like to talk more.</p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
