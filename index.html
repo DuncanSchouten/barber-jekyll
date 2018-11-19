@@ -6,170 +6,6 @@ pagination:
   collection: works
   sort_field: "sort_order"
 ---
-<style type="text/css">
-
-  #hero .content {
-    padding: 5em 1em 6em;
-    text-align: center;
-  }
-
-  #about .content {
-    padding: 5em 1em 6em;
-  }
-
-  #hero h1 {
-    font-family: lora, serif;
-    font-size: 2.5em;
-    line-height: 1.3em;
-    letter-spacing: -1px;
-    margin-bottom: 2rem;
-  }
-
-  #hero h2 {
-    font-family: roboto, sans-serif;
-    font-size: 1.25em;
-    font-weight: 400;
-  }
-
-  @media screen and (min-width: 22em) {
-    #hero .content, #about .content {
-      padding: 6em 1em 6em;
-
-    }
-
-    #hero h1, h2 {
-
-    }
-  }
-
-  @media screen and (min-width: 32em) {
-    #hero .content, #about .content {
-      padding: 4em 2em 4em;
-      text-align: left;
-    }
-
-  }
-
-  @media screen and (min-width: 54em) {
-    #hero .content, #about .content {
-      padding: 4em 1em 4em;
-    }
-
-    #hero h1, h2 {
-      max-width: 60%;
-    }
-
-    #about .content {
-      /* max-width: 50%; */
-    }
-
-    #about
-  }
-
-  @media screen and (min-width: 64em) {
-    #hero .content {
-
-    }
-
-    #hero h1, h2 {
-
-    }
-  }
-
-  #work.posts {
-    padding: 4em 1em 4em;
-  }
-
-  #about h2 {
-
-  }
-
-  #about .about-me {
-    margin-top: 0.75em;
-    margin-bottom: 2rem;
-  }
-
-  #about ul, ol {
-    margin-left: 1em;
-    margin-bottom: 0.75em;
-  }
-
-  #about li:not(:last-child) {
-    margin-bottom: 0.75em;
-  }
-
-  @media screen and (min-width: 54em) {
-    #about ul, ol {
-      margin-left: 0;
-    }
-  }
-
-  .featured-work {
-    margin-top: 0.75em;
-  }
-
-  @media screen and (min-width: 91em) {
-    .featured-work {
-      margin-bottom: 0.75em;
-    }
-  }
-
-  #about .about-me__details {
-    display: flex;
-    flex-direction: column;
-  }
-
-  #about .about-me__details--photo {
-    width: 100%;
-    margin-bottom: 2em;
-  }
-
-  #about .about-me__details--bio {
-    width: 100%;
-  }
-
-  @media screen and (min-width: 54em) {
-    #about .about-me__details {
-      flex-direction: row;
-    }
-
-    #about .about-me__details--photo {
-      order: 2;
-      width: 50%;
-      margin-bottom: 0;
-      padding-left: 1em;
-      padding-right: 1em;
-    }
-
-    #about .about-me__details--bio {
-      order: 1;
-      width: 50%;
-    }
-  }
-
-  /*
-  #about .about-me__details[data-columns]::before {
-	   content: '1 .column.size-1of1';
-  }
-
-  @media screen and (min-width: 54em) {
-    #about .about-me__details[data-columns]::before {
-  	   content: '2 .column.size-1of2';
-    }
-  }
-  */
-
-  /* These are the classes that are going to be applied:
-  .column { float: left; }
-  .size-1of2 { width: 50%; }
-
-  #about .about-me__details::after {
-    content: "";
-    display: table;
-    clear: both
-  }
-  */
-</style>
 
 <!-- The main content area -->
 <section id="hero">
@@ -208,9 +44,11 @@ pagination:
         <h2>About Me</h2>
       </div>
       <div class="about-me__details">
+
         <div class="about-me__details--photo">
-          <img src="/uploads/portfolio-bio-shot.jpg">
+          <!-- <img src="/uploads/portfolio-bio-shot.jpg"> -->
         </div>
+
         <div class="about-me__details--bio">
           <div>
             <p>Structure and form. Collaboration and curiosity. The big picture and the details. And, above all, a passion for the creation of meaningful experiences.
@@ -225,9 +63,9 @@ pagination:
 
             <p>I believe that the best teams are made of people who whose work doesn’t fit neatly into a single box. This has motivated me to build a broad skillset—from research and strategy through design, development, and launch.</p>
 
-            <p>Away from the computer, I try to spend as much time as I can in the mountains. When I’m at home, though, you can often find me using my musical training to sing songs for, and about, my cats.</p>
+            <p>Away from the computer, I try to spend as much time as I can in the mountains. When I’m at home, though, you can often find me using my musical training to write and perform songs for, and about, my cats.</p>
 
-            <p><a class="popup__open">Get in touch</a> if you’d like to talk more.</p>
+            <p>Please <a class="popup__open">Get in touch</a> if you’d like to talk about a project, or maybe want to hear one of the songs.</p>
 
           </div>
         </div>
