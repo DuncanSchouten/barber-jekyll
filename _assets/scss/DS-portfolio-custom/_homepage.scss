@@ -1,0 +1,177 @@
+//----------------------------------------------
+// Homepage styles
+//----------------------------------------------
+
+#hero .content {
+  padding: 5em 1em 6em;
+  text-align: center;
+}
+
+#about .content {
+  padding: 5em 1em 6em;
+}
+
+#hero h1 {
+  font-family: lora, serif;
+  font-size: 2.5em;
+  line-height: 1.3em;
+  letter-spacing: -1px;
+  margin-bottom: 2rem;
+}
+
+#hero h2 {
+  font-family: roboto, sans-serif;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 22em) {
+  #hero .content, #about .content {
+    padding: 6em 1em 6em;
+
+  }
+
+  #hero h1, h2 {
+
+  }
+}
+
+@media screen and (min-width: 32em) {
+  #hero .content, #about .content {
+    padding: 4em 2em 4em;
+    text-align: left;
+  }
+
+}
+
+@media screen and (min-width: 54em) {
+  #hero .content, #about .content {
+    padding: 4em 1em 4em;
+  }
+
+  #hero h1, h2 {
+    max-width: 60%;
+  }
+
+  #about .content {
+    /* max-width: 50%; */
+  }
+
+}
+
+@media screen and (min-width: 64em) {
+  #hero .content {
+
+  }
+
+  #hero h1, h2 {
+
+  }
+}
+
+#work.posts {
+  padding: 4em 1em 4em;
+}
+
+#about h2 {
+
+}
+
+#about .about-me {
+  margin-top: 0.75em;
+  margin-bottom: 2rem;
+}
+
+#about ul, ol {
+  margin-left: 1em;
+  margin-bottom: 0.75em;
+}
+
+#about li:not(:last-child) {
+  margin-bottom: 0.75em;
+}
+
+@media screen and (min-width: 54em) {
+  #about ul, ol {
+    margin-left: 0;
+  }
+}
+
+.featured-work {
+  margin-top: 0.75em;
+}
+
+@media screen and (min-width: 91em) {
+  .featured-work {
+    margin-bottom: 0.75em;
+  }
+}
+
+#about .about-me__details {
+  display: flex;
+  flex-direction: column;
+}
+
+#about .about-me__details--photo {
+  width: 100%;
+  min-height: 20vh;
+  margin-bottom: 2em;
+  background-image: url("/uploads/portfolio-bio-shot.jpg");
+  background-size: cover;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+#about .about-me__details--bio {
+  width: 100%;
+}
+
+#about .about-me__details--bio a {
+  text-decoration: none;
+  color: $color-black;
+  border-bottom: 2px solid $color-grey;
+  box-shadow: inset 0 -3px 0 $color-grey;
+}
+
+@media screen and (min-width: 54em) {
+  #about .about-me__details {
+    flex-direction: row;
+  }
+
+  #about .about-me__details--photo {
+    order: 2;
+    width: 50%;
+    margin-bottom: 0;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  #about .about-me__details--bio {
+    order: 1;
+    width: 50%;
+  }
+}
+
+/*
+#about .about-me__details[data-columns]::before {
+   content: '1 .column.size-1of1';
+}
+
+@media screen and (min-width: 54em) {
+  #about .about-me__details[data-columns]::before {
+     content: '2 .column.size-1of2';
+  }
+}
+*/
+
+/* These are the classes that are going to be applied:
+.column { float: left; }
+.size-1of2 { width: 50%; }
+
+#about .about-me__details::after {
+  content: "";
+  display: table;
+  clear: both
+}
+*/
