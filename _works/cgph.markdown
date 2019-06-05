@@ -49,7 +49,7 @@ I worked on this project as **researcher, lead designer,** and **manager** as pa
 * Management (project leadership, direction of deliverables)
 
 {::options parse_block_html="true" /}
-<div class="callout left-highlight red top-margin">
+<div class="callout left-highlight red bottom-margin top-margin">
 ### Challenge: no resources for research or testing
 
 I was brought into the project several years after stakeholders identified the need for an updated website. This meant that getting a new site online ASAP was their top priority, favouring **launch of a minimum viable product with post-hoc testing over preliminary user research.**
