@@ -34,7 +34,6 @@ While the project initially began as a visual refresh of the original website, i
 
 Then, using a human-centered design approach and validating assumptions wherever possible, I undertook **design of a new website and a fully-reimagined online booking process.**
 
-
 ### My role
 
 I worked on this project as **researcher, lead designer,** and **manager** as part of my employment with *alumni UBC.*
