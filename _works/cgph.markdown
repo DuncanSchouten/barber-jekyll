@@ -349,7 +349,7 @@ Since launching in August 2018, the the new website has resulted in several sign
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight green bottom-margin">
-* **60% increase in online booking requests**
+* **60% year-over-year increase in online booking requests**
 * 20% increase in booking requests for business or other non-wedding events
 * 114% increase in unique page views on the booking request page
 * 64% increase in unique page views from mobile and tablet devices

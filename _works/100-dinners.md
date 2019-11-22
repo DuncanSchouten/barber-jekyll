@@ -31,7 +31,7 @@ With a limited budget and minimal staff resources for operation, however, **the 
 Our solution was informed through a combination of discussions with potential participants and extensive dialogue with staff at another organization that ran a similar program. By **reducing the service to only its essential parts and leveraging automation wherever possible,** we established a model that met core business and user needs with little operational overhead.
 
 ### My Role
-Working with a team of two *alumni UBC* events staff, I helped to evaluate and synthesize pre-existing research, consult with stakeholders on program requirements, and devise an blueprint for efficient service delivery. I then designed a lightweight microsite for the program within the *alumni UBC* brand and assisted IT Services in its development and launch.
+Working with a team of two *alumni UBC* events staff, I helped to evaluate and synthesize pre-existing research, consult with stakeholders on business requirements, and devise an blueprint for efficient service delivery. I then designed a lightweight microsite for the program within the *alumni UBC* brand and assisted IT Services in its development and launch.
 
 ##### Main areas of responsibility:
 * Research (evaluate and synthesize)
@@ -128,7 +128,7 @@ In speaking with our counterparts at Johns Hopkins, they emphasized the **risk o
 Wherever possible, we had to investigate methods for efficient service delivery and minimize operational overhead.
 
 #### Solution: Leverage automation
-The solution was deceptively simple: web forms.
+The solution was deceptively simple: automation.
 
 I worked with our development team to **establish a process for automatically creating event postings with the details submitted by hosts.** These were set to remain private until staff had approved their posting.
 
@@ -166,4 +166,4 @@ In the end, we tallied **1,156 attendees at over 90 events around the world,** w
 ## Reflection
 {: .portfolio-item .section-title}
 
-This was a project where function took precedence over form. While I would have appreciated more time for front-end design (the finished product was really rather bland), our careful attention to efficient service delivery meant that the program operated far more smoothly than Hopkins'.
+This was a project where function took precedence over form. While I would have appreciated more time for front-end design (the finished product was really rather bland), our careful attention to efficient service delivery and leveraging automation wherever possible meant that the program operated far more smoothly than Hopkins'.
