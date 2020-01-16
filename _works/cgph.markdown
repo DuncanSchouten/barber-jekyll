@@ -345,7 +345,7 @@ I designed all pages upward from their mobile layouts, guided by several princip
 ## Results
 {: .portfolio-item .section-title}
 
-Since launching in August 2018, the the new website has resulted in several significant improvements over the same period in the previous year:
+Since launching in August 2018, the new website has resulted in several significant improvements over the same period in the previous year:
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight green bottom-margin">
