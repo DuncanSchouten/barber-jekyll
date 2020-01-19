@@ -1,6 +1,6 @@
 ---
 layout: portfolio-item
-title: Cecil Green Park House
+title: Cecil Green Park House Brand Refesh
 date: 2018-11-01 00:00:00 +0000
 sort_order: 0
 description: Research, Branding, Design, Project Management

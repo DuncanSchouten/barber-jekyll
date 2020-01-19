@@ -1,5 +1,5 @@
 ---
-title: 100 Dinners
+title: 100 Dinners Program Design 
 layout: portfolio-item
 description: Research, Service Design, UX Design
 author: Duncan Schouten
@@ -166,4 +166,4 @@ In the end, we tallied **1,156 attendees at over 90 events around the world,** w
 ## Reflection
 {: .portfolio-item .section-title}
 
-This was a project where function took precedence over form. While I would have appreciated more time for front-end design (the finished product was really rather bland), our careful attention to efficient service delivery and leveraging automation wherever possible meant that the program operated far more smoothly than Hopkins'.
+This was a project where function took precedence over form. While I would have appreciated more time for front-end design, our careful attention to efficient service delivery and leveraging automation wherever possible meant that the program operated far more smoothly than Hopkins'.
