@@ -69,7 +69,7 @@ Since launch, the new site has seen a **60% increase in online booking inquiries
 
 ### Business goals
 
-The discovery process began with interviews and workshops with venue staff and stakeholders to clarify the business's long-term goals. Two goals, in particular, were emphasized:
+My discovery process began with interviews and workshops with venue staff and stakeholders to elicit the business's long-term goals. Two goals, in particular, were emphasized:
 
 1. Reach capacity of 100 weddings per season
 2. Grow the number of corporate retreats and other business events
@@ -111,7 +111,7 @@ This flowed naturally into a workshop with staff and stakeholders where we defin
 
 ### Journey maps
 
-For our main personas, we also developed provisional journey maps:
+For our main personas, we also developed provisional journey maps. These helped to identify opportunities to improve customer experience, both within the new website and on a broader scale:
 
 ![Provisional journey map](/uploads/CGPH-Provisional-Journey-Map-min.png)
 
