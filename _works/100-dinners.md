@@ -1,5 +1,5 @@
 ---
-title: \'100 Dinners\' Program Design 
+title: '100 Dinners' Program Design 
 layout: portfolio-item
 description: Research, Service Design, UX Design
 author: Duncan Schouten
