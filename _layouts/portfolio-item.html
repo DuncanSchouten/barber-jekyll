@@ -6,7 +6,7 @@ pagination:
 <div class="post">
   <article itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
     <div class="post__header section-padding--double">
-      <div class="grid-small">
+      <div class="grid-large">
         <h2 itemprop="name headline">{{ page.title }}</h2>
 
         <!-- <time class="post__date" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%-d %b %Y" }}</time> -->
@@ -34,7 +34,7 @@ pagination:
   </article>
 </div>
 
-<!-- Links to Previous/Next posts -->
+<!-- Links to Previous/Next portfolio work -->
 {% if page.collection %}
   {% assign collection = site[page.collection] | sort: 'sort_order' %}
   {% assign prev = collection | last %}
