@@ -1,11 +1,11 @@
 ---
 layout: portfolio-item
 title: Cecil Green Park House Brand Refesh
-date: 2018-11-01 00:00:00 +0000
-sort_order: 0
 description: Research, Branding, Design, Project Management
-image: "/uploads/CGPH-Cover-Image-1920x1280-min.jpg#full"
 author: Duncan Schouten
+date: 2018-11-01 00:00:00 +0000
+sort-order: 0
+image: "/uploads/CGPH-Cover-Image-1920x1280-min.jpg#full"
 tags:
 - Dummy Text
 - Moon Drinking

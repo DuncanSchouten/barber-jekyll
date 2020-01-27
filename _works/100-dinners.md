@@ -1,9 +1,10 @@
 ---
-title: 100 Dinners Program Design 
 layout: portfolio-item
+title: 100 Dinners Program Design
 description: Research, Service Design, UX Design
 author: Duncan Schouten
 date: 2018-11-02 00:00:00 +0000
+sort-order: 1
 image: '/uploads/100-Dinners-Cover-1920x1280.jpg'
 tags: []
 
