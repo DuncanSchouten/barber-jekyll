@@ -118,7 +118,7 @@ After defining business and user needs, I **led a workshop with stakeholders to 
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight grey bottom-margin top-margin">
-### Constraint: Adherence to UBC brand and website standards
+#### Constraint: Adherence to UBC brand and website standards
 
 As part of the UBC ecosystem, several aspects of the Homecoming microsite’s design were dictated by the university’s “[Common Look and Feel](https://clf.ubc.ca/)” (CLF), a web-specific extension of institutional brand guidelines.
 
@@ -136,7 +136,7 @@ These options were presented to stakeholders, who expressed their preferences an
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight grey bottom-margin top-margin">
-### Constraint: No current content available at time of design
+#### Constraint: No current content available at time of design
 
 Scheduling necessitated that the 2019 Homecoming microsite be designed before the event details were fully defined or any supporting content was produced. This meant that the design needed to be flexible and unopinionated in order to support a range of potential content.
 </div>
