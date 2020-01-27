@@ -54,7 +54,7 @@ const PageTransition = (() => {
 
         const linkLocation = $(e.currentTarget).attr('href');
 
-        s.body.addClass('js-page-exiting');
+        // s.body.addClass('js-page-exiting');
 
         setTimeout(() => {
           window.location = linkLocation;
