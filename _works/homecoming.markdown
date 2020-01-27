@@ -51,12 +51,14 @@ I worked on this project as **researcher, lead designer,** and **developer** as 
 * User interface design
 * Development (HTML, CSS, and JavaScript)
 
+{::comment}
 {::options parse_block_html="true" /}
 <div class="callout left-highlight red bottom-margin top-margin">
 ### Challenge: resource, timeline, and technology constraints
 
 TO BE COMPLETED.
 </div>
+{:/comment}
 
 {::comment}
 ### Outcomes
