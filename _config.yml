@@ -36,10 +36,11 @@ pagination:
   limit: 0
 
   # Optional, defines the field that the posts should be sorted on (omit to default to 'date')
-  sort_field: 'date'
+  # DS Note: Sorted manually by "sort-order", defined in each portfolio piece's front matter
+  sort_field: 'sort-order'
 
   # Optional, sorts the posts in reverse order (omit to default decending or sort_reverse: true)
-  sort_reverse: true
+  # sort_reverse: true
 
   # Optional, the default category to use, omit or just leave this as 'posts' to get a backwards-compatible behavior (all posts)
   category: 'posts'
