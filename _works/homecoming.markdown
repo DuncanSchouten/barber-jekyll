@@ -129,7 +129,8 @@ After establishing system features, I **created a variety of low/medium-fidelity
 
 These options were presented to stakeholders, who expressed their preferences and provided feedback. Ultimately, however, they deferred to my knowledge of UX best practices to provide direction on what layouts would likely be most effective for our use cases.
 
-![Collage of wireframes](/uploads/Homecoming-Wireframe-collage.png#full)
+![Collage of wireframes](/uploads/Homecoming__Wireframe-Collage.png#full)
+
 
 ### Provisional designs
 
@@ -142,9 +143,7 @@ Scheduling necessitated that the 2019 Homecoming microsite be designed before th
 
 Once page layouts had been finalized, I **collaborated with the *alumni UBC* visual designer on provisional high-fidelity final designs,** which were then approved in consultation with project stakeholders.
 
-
 ![Collage of provisional designs](/uploads/Homecoming__Provisional-Designs--tall.png#full)
-
 
 
 ### Usability testing and design iteration
@@ -171,7 +170,7 @@ After completing the provisional designs and preparing materials for handoff to 
 
 Absent a dedicated developer, I agreed to take on this role. Our constrained timeline for execution, however, required that efforts be made to reduce feature complexity.
 
-In the end, stakeholders agreed to **remove the interactive "Getting Around" map from the final site build.** The design of individual event pages, as well, was simplified to better align with the output of the CLF’s default event management plugin. 
+In the end, stakeholders agreed to **remove the interactive "Getting Around" map from the final site build.** The design of individual event pages, as well, was simplified to better align with the output of the CLF’s default event management plugin.
 
 
 ### Approach used
