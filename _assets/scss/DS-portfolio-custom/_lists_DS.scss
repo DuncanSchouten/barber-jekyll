@@ -5,9 +5,11 @@
 .post {
   ol,
   ul:not(.post__social) {
+    margin: {
+      left: 2em;
+    }
 
     & > li {
-
       p {
         font-size: 1em !important;
       }

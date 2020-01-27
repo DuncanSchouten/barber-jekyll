@@ -3,6 +3,7 @@
 //----------------------------------------------
 .callout {
 
+
   &.left-highlight {
     margin-left: -0.4em;
     padding-left: .7em;
@@ -13,6 +14,14 @@
 
     &.green {
       border-left: 0.2rem solid $color-CGPH-green;
+    }
+
+    &.grey {
+      border-left: 0.2rem solid $color-grey;
+    }
+
+    &.list-indent {
+        margin-left: 0;
     }
 
     & ul, ol, p:last-child {
@@ -27,4 +36,5 @@
   &.bottom-margin {
     margin-bottom: 1.5em;
   }
+
 }
