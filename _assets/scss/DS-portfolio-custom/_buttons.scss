@@ -2,7 +2,7 @@
 // Buttons
 //----------------------------------------------
 
-.related a {
+.related a, .homepage-header-buttons a {
   &:first-of-type {
     margin-bottom: 0.7em;
 
@@ -27,22 +27,32 @@ a.button {
   transition: background 150ms linear;
   min-width: 15em;
 
-  &.homepage {
+  &.homepage-header {
+    min-width: 7em;
+
+    &.work {
+
+    }
+  }
+
+  &.linkedin, &.homepage {
     border-color: $color-black;
     color: $color-black;
   }
 
-  &.homepage:hover {
-
+  &.linkedin:hover, &.homepage:hover {
+    color: $color-white;
+    border-color: $color-black;
+    background-color: $color-black;
   }
 
-  &.next-project {
+  &.work, &.next-project {
     color: #efefef;
     border-color: $color-black;
     background-color: $color-black;
   }
 
-  &.next-project:hover {
+  &.work:hover, &.next-project:hover {
     border-color: #2a87d3;
     background-color: #2a87d3;
   }

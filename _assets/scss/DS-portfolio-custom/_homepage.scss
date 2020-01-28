@@ -4,7 +4,7 @@
 
 #hero .content {
   padding: 5em 1em 6em;
-  text-align: center;
+  text-align: left;
 }
 
 #about .content {
@@ -25,7 +25,7 @@
   font-weight: 400;
 }
 
-@media screen and (min-width: 22em) {
+@media screen and (min-width: $mq-xsmall) {
   #hero .content, #about .content {
     padding: 6em 1em 6em;
 
@@ -36,7 +36,7 @@
   }
 }
 
-@media screen and (min-width: 32em) {
+@media screen and (min-width: $mq-small) {
   #hero .content, #about .content {
     padding: 4em 1em 4em;
     text-align: left;
@@ -44,7 +44,7 @@
 
 }
 
-@media screen and (min-width: 54em) {
+@media screen and (min-width: $mq-med) {
   #hero .content, #about .content {
     padding: 4em 1em 4em;
   }
@@ -59,7 +59,7 @@
 
 }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: $mq-large) {
   #hero .content {
 
   }
@@ -68,6 +68,12 @@
 
   }
 }
+
+#hero .homepage-header-buttons {
+  padding-top: 2em;
+}
+
+
 
 #work.posts {
   padding: 4em 1em 4em;
@@ -91,7 +97,7 @@
   margin-bottom: 0.75em;
 }
 
-@media screen and (min-width: 54em) {
+@media screen and (min-width: $mq-med) {
   #about ul, #about ol {
     margin-left: 0;
   }
@@ -101,7 +107,7 @@
   margin-top: 0.75em;
 }
 
-@media screen and (min-width: 91em) {
+@media screen and (min-width: $mq-xlarge) {
   .featured-work {
     margin-bottom: 0.75em;
   }
@@ -134,7 +140,7 @@
   box-shadow: inset 0 -3px 0 $color-grey;
 }
 
-@media screen and (min-width: 54em) {
+@media screen and (min-width: $mq-med) {
   #about .about-me__details {
     flex-direction: row;
   }
