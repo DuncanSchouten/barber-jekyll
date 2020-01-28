@@ -66,6 +66,7 @@ Since launch, the new site has seen a **60% increase in online booking inquiries
 {: .portfolio-item .section-title}
 
 ![Provisional persona workshop](/uploads/cgph-provisional-Persona-workshop-1920x1080.jpg#full)
+{: data-aos="fade-in"}
 
 ### Business goals
 
@@ -92,12 +93,14 @@ My discovery process began with interviews and workshops with venue staff and st
 Next, I undertook a top-level analysis of the business’s strengths, weaknesses, opportunities, and threats:
 
 ![SWOT Analysis](/uploads/SWOT-Analysis-Blurred-min.png)
+{: data-aos="fade-in"}
 
 ### Competitive research
 
 Complementing the SWOT analysis was research on the most salient information of the venue’s local competition. **A key takeaway from this was learning that no competitors offered real-time information on their venue's availability.**
 
 ![Competitive Research](/uploads/Competitive-Research-Blurred-min.png)
+{: data-aos="fade-in"}
 
 ### Provisional personas
 
@@ -108,12 +111,14 @@ Interviews with venue staff&mdash;the business’s primary client liaisons&mdash
 This flowed naturally into a workshop with staff and stakeholders where we defined several provisional user personas:
 
 ![Provisional persona](/uploads/Provisional-Persona-min.png)
+{: data-aos="fade-in"}
 
 ### Journey maps
 
 For our main personas, we also developed provisional journey maps. These helped to identify opportunities to improve customer experience, both within the new website and on a broader scale:
 
 ![Provisional journey map](/uploads/CGPH-Provisional-Journey-Map-min.png)
+{: data-aos="fade-in"}
 
 ### Review of Google Analytics demographics
 
@@ -132,7 +137,7 @@ This data supported the information provided by venue staff and gave added weigh
 
 I completed my discovery phase with a heuristic analysis of the original website, using a 247-point checklist found [here](https://www.userfocus.co.uk/resources/guidelines.html).
 
-![Heuristic analysis of original site](/uploads/Heuristic-Analysis-Min.png){:width="500"}
+![Heuristic analysis of original site](/uploads/Heuristic-Analysis-Min.png){:width="500" data-aos="fade-in"}
 
 While I knew this project would require a fully-redesigned website, heuristic analysis allowed me to become familiar with the original site and gauge what aspects should be carried forward in the new design.
 
@@ -149,6 +154,7 @@ Hopefully, this can be rectified in the future.
 {: .portfolio-item .section-title}
 
 ![Style Tile](/uploads/CGPH-Style-Tile-1920-min.png#full)
+{: data-aos="fade-in"}
 
 ### A “just enough” approach
 
@@ -166,6 +172,7 @@ The brand voice is warm and welcoming, guided by the idea that **“the house is
 {: .portfolio-item .section-title}
 
 ![Mobile-first design](/uploads/CGPH-Mobile-Mockups-1920x1080.jpg#full)
+{: data-aos="fade-in"}
 
 ### Defining website goals
 
@@ -208,6 +215,7 @@ We identified several key areas of focus for the new website, along with metrics
 Despite the relatively small scale of the original site, a review of its information architecture revealed a surprisingly complex structure:
 
 ![Original site information architecture](/uploads/CGPH-old-IA.png)
+{: data-aos="fade-in"}
 
 #### Solution: simplify, focusing on core user needs
 After presenting the original site map to stakeholders, all agreed that a simpler structure was needed.
@@ -215,6 +223,7 @@ After presenting the original site map to stakeholders, all agreed that a simple
 I reviewed usage statistics in Google Analytics to determine the most popular pages of the original site and identify common user flows, giving insight on how to best organize the new information architecture:  
 
 ![New site information architecture](/uploads/CGPH-new-IA.png)
+{: data-aos="fade-in"}
 
 Among the principles guided that guided my revised structure were:
 * Giving greater hierarchal prominence to high-performing sections of the original site.
@@ -235,7 +244,7 @@ Given the strong emphasis by all stakeholders on the goal of increasing venue bo
 
 The original system, however, **forced users through a multi-step process** to check venue availability:
 
-![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png){:width="500px"}
+![Old booking process flow](/uploads/CGPH-Old-Booking-Process.png){:width="500px" data-aos="fade-in"}
 
 This created two problems:
 1. Users on mobile devices were particularly averse to this (as verified in the analytics data for site drop-offs and some informal usability testing)
@@ -278,10 +287,12 @@ To accommodate this, I revised my design to indicate dates with holds using cros
 I worked with IT services to **determine which data could be extracted from the venue's backend booking system.** This led to my first design for the date picker UI, using orange circles to indicate dates with partial-day bookings and red to indicate full-day bookings:
 
 ![Booking calendar date picker v1](/uploads/cgph_booking_calendar-v1-cropped.png)
+{: data-aos="fade-in"}
 
 In this case, users interested in dates with half-day bookings would first need to choose a date before seeing their options in the associated time picker:
 
 ![Booking calendar time picker](/uploads/cgph_timepicker_buttons-cropped.PNG)
+{: data-aos="fade-in"}
 
 #### Second iteration
 
@@ -290,6 +301,7 @@ When presenting my proposed design to venue staff, it emerged that an important 
 To accommodate this, I revised my design to indicate dates with holds using crosshatching:
 
 ![Booking calendar date picker v1](/uploads/cgph_booking_calendar-v2-cropped.png)
+{: data-aos="fade-in"}
 
 #### Usability testing
 
@@ -304,7 +316,7 @@ With this information, I revised my design to include complete details on each d
 
 After conducting another round of guerilla testing, **no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.**
 
-![Booking calendar date picker v3](/uploads/CGPH-booking-request_mockup_886x1732-min.png){:width="300"}
+![Booking calendar date picker v3](/uploads/CGPH-booking-request_mockup_886x1732-min.png){:width="300" data-aos="fade-in"}
 
 
 
@@ -314,6 +326,7 @@ After conducting another round of guerilla testing, **no users reported any of t
 To ensure the ongoing optimization of the booking form and gain insights into its usage, I implemented a custom adaptation of Simo Ahava’s [form interaction tracking system](https://www.simoahava.com/analytics/track-form-engagement-with-google-tag-manager/). With this, site administrators are able to see how users are traversing the form, where they abandon, and how they reach the final goal of submission:
 
 ![Form interaction tracking results](/uploads/CGPH-Booking-form-abandonments-min.png)
+{: data-aos="fade-in"}
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight red bottom-margin top-margin">

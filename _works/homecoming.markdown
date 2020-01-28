@@ -132,6 +132,7 @@ After establishing system features, I **created a variety of low/medium-fidelity
 These options were presented to stakeholders, who expressed their preferences and provided feedback. Ultimately, however, they deferred to my knowledge of UX best practices to provide direction on what layouts would likely be most effective for our use cases.
 
 ![Collage of wireframes](/uploads/Homecoming__Wireframe-Collage.png#full)
+{: data-aos="fade-in"}
 
 
 ### Provisional designs
@@ -146,6 +147,7 @@ Scheduling necessitated that the 2019 Homecoming microsite be designed before th
 Once page layouts had been finalized, I **collaborated with the *alumni UBC* visual designer on provisional high-fidelity final designs,** which were then approved in consultation with project stakeholders.
 
 ![Collage of provisional designs](/uploads/Homecoming__Provisional-Designs--tall.png#full)
+{: data-aos="fade-in"}
 
 
 ### Usability testing and design iteration
@@ -157,6 +159,7 @@ Although I was correct in my assumption that few issues emerged through testing,
 2. Indicate the shuttle bus’ direction of travel
 
 ![Getting Around - Interactive map after usability testing](/uploads/Homecoming_Post-Testing_Getting-Around-Map.png#full)
+{: data-aos="fade-in"}
 
 
 ## Development

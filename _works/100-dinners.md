@@ -44,6 +44,7 @@ Working with a team of two *alumni UBC* events staff, I helped to evaluate and s
 {: .portfolio-item .section-title}
 
 ![Early 100 Dinners workshop notes](/uploads/100-Dinners-service-sketch-1920x1080.jpg#full)
+{: data-aos="fade-in"}
 
 ### Audience definition
 Like all activities in the *alumni UBC 100* campaign, the 100 Dinners project was intended to help provide UBC alumni with opportunities to stay connected with their alma mater and engage with other graduates.
@@ -84,6 +85,7 @@ As a new, untested idea for *alumni UBC*, relatively few concrete business goals
 {: .portfolio-item .section-title}
 
 ![Service blueprint](/uploads/100-Dinners-Service-Blueprint.png#full)
+{: data-aos="fade-in"}
 
 Rather than reinvent the wheel, we chose to build on Hopkins’ program model and address areas where they encountered difficulties.
 
@@ -136,6 +138,7 @@ I worked with our development team to **establish a process for automatically cr
 Once program staff had populated ePly&mdash;an RSVP management platform&mdash;with the event details and handed it off to hosts, putting the event live on the 100 Dinners website required only changing the privacy settings and copying in the ePly link.  
 
 ![Event posting process](/uploads/100-Dinners-Event-Posting-Process.jpg)
+{: data-aos="fade-in"}
 
 {::options parse_block_html="true" /}
 <div class="callout left-highlight red bottom-margin top-margin">
@@ -156,6 +159,7 @@ The one area that was improved based on user feedback was the inclusion of a dro
 
 
 ![Collage from events](/uploads/100-Dinners-collage-min.jpg#full)
+{: data-aos="fade-in"}
 
 ### Expectations exceeded
 
