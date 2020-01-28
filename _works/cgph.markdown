@@ -1,6 +1,6 @@
 ---
 layout: portfolio-item
-title: Cecil Green Park House Brand Refesh
+title: Cecil Green Park House Brand Refresh
 description: Research, Branding, Design, Project Management
 author: Duncan Schouten
 date: 2018-11-01 00:00:00 +0000
