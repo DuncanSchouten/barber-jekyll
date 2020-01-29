@@ -158,7 +158,7 @@ Although I was correct in my assumption that few issues emerged through testing,
 1. Ability to filter both the schedule and interactive map by event category and time of day
 2. Indicate the shuttle bus’ direction of travel
 
-![Getting Around - Interactive map after usability testing](/uploads/Homecoming_Post-Testing_Getting-Around-Map.png#full)
+![Getting Around - Interactive map after usability testing](/uploads/Homecoming__Post-Testing-Getting-Around-Map.png#full)
 {: data-aos="fade-in"}
 
 
