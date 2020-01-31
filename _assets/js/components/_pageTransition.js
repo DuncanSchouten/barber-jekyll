@@ -17,7 +17,7 @@ const PageTransition = (() => {
         body: $('body'),
         window: $(window),
         exit: 400,
-        entrance: 200
+        entrance: 100
       };
     },
 
