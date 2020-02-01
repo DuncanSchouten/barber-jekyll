@@ -14,7 +14,7 @@ const headerScrollDetection = () => {
   //console.log(bodyScrollTop);
 
   if (document.documentElement.scrollTop || document.body.scrollTop) {
-    console.log("No scrolling: " + document.documentElement.scrollTop || document.body.scrollTop);
+    // console.log("No scrolling: " + document.documentElement.scrollTop || document.body.scrollTop);
     header.classList.add("header__scrolling");
     header.classList.remove("header__fixed");
   }
