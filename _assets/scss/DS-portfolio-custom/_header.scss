@@ -1,0 +1,47 @@
+//----------------------------------------------
+// Header
+//----------------------------------------------
+.header {
+  @extend %letter-spacing;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: $z-999;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: $header-height;
+  width: 100%;
+  padding: {
+    right: 1em;
+    left: 1em;
+  }
+
+  background-color: $color-white;
+  border-bottom: $border;
+  border-bottom-color: rgba($color-white, 1);
+
+
+
+  transition: box-shadow 0.05s;
+  transition: border-bottom 0.05s;
+
+  @media (min-width: $mq-small) {
+    padding: {
+      right: 2em;
+      left: 2em;
+    }
+  }
+
+  &__fixed {
+    //border-bottom-color: rgba($color-white, 1);
+    box-shadow: none;
+  }
+
+  &__scrolling {
+    @extend %box-shadow;
+    border-bottom: $border;
+  }
+}

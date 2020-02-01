@@ -1,9 +1,9 @@
 //----------------------------------------------
 // Header
-//---------------------------------------------- 
+//----------------------------------------------
 .header {
   @extend %letter-spacing;
-  @extend %box-shadow;
+  // @extend %box-shadow;
 
   position: fixed;
   top: 0;
@@ -20,8 +20,8 @@
     left: 1em;
   }
 
-  background-color: $color-white;
-  border-bottom: $border;
+  // background-color: $color-white;
+  // border-bottom: $border;
 
   @media (min-width: $mq-small) {
     padding: {

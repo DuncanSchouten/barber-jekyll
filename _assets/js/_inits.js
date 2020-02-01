@@ -11,6 +11,7 @@ import MailChimp from './components/_mailChimp.js';
 import { miscFlexVid, miscZoom, miscSocialShare } from './components/_miscellaneous.js';
 import PageTransition from './components/_pageTransition.js';
 import Popup from './components/_popup.js';
+import { headerScrollDetection } from './components/DS-Custom/_headerScrollDetection.js';
 
 // ----------------------------------------------
 // Inits
@@ -39,6 +40,10 @@ $(() => {
   if ($('#form').length) {
     Formcarry.init();
     Popup.init();
+  }
+
+  if ($('#header').length) {
+    headerScrollDetection();
   }
 
 });
