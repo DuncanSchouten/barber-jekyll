@@ -16,7 +16,7 @@ const headerScrollDetection = () => {
   if (document.documentElement.scrollTop || document.body.scrollTop) {
     // console.log("No scrolling: " + document.documentElement.scrollTop || document.body.scrollTop);
     header.classList.add("header__scrolling");
-    header.classList.remove("header__fixed");
+    header.classList.remove("header__top");
   }
 
 
@@ -28,9 +28,9 @@ const headerScrollDetection = () => {
 
     if (bodyScrollTop > 0) {
       header.classList.add("header__scrolling");
-      header.classList.remove("header__fixed");
+      header.classList.remove("header__top");
     } else {
-      header.classList.add("header__fixed");
+      header.classList.add("header__top");
       header.classList.remove("header__scrolling");
     }
   });
