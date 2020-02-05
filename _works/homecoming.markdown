@@ -23,7 +23,7 @@ tags: []
 
 {::options parse_block_html="true" /}
 <div class="callout summary bottom-margin">
-## Summary
+## Brief Summary
 In 2019, I led redesign of the [UBC Homecoming microsite](https://homecoming.ubc.ca) as part of my employment with *alumni UBC*.
 
 My work included **business analysis, UX design, usability testing, and front-end development.**
