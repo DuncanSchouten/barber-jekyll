@@ -23,7 +23,7 @@ tags: []
 
 {::options parse_block_html="true" /}
 <div class="callout summary bottom-margin">
-## Brief Summary
+## Summary
 In 2019, I led redesign of the [UBC Homecoming microsite](https://homecoming.ubc.ca) as part of my employment with *alumni UBC*.
 
 My work included **business analysis, UX design, usability testing, and front-end development.**
@@ -31,7 +31,7 @@ My work included **business analysis, UX design, usability testing, and front-en
 The **original event budget included $30,000** for external design and development resources for this project. Instead, I was able to complete it entirely in-house at **zero additional cost.**
 </div>
 
-## Overview
+## Project overview
 
 ### The problem
 User and business stakeholder feedback indicated that previous versions of the UBC Homecoming microsite were failing to meet the needs of either group. Users expressed that they faced **difficulty finding and navigating the site's most critical content;** stakeholders reported that **the site's architecture prevented effective promotion of individual Homecoming events.**

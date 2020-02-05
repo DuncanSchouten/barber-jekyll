@@ -26,7 +26,7 @@ tags:
 
 {::options parse_block_html="true" /}
 <div class="callout summary bottom-margin">
-## Brief Summary
+## Summary
 In 2018, I led the creation of an updated identity for a well-known Vancouver event venue as part of my employment with *alumni UBC*.
 
 My work included **business analysis, user research, branding, and design of a [new website](https://cecilgreenpark.ubc.ca).**
@@ -34,7 +34,7 @@ My work included **business analysis, user research, branding, and design of a [
 These efforts have yielded significant improvements on several key metrics, including a **60% year-over-year increase in online lead generation.**
 </div>
 
-## Overview
+## Project overview
 
 ### The problem
 Cecil Green Park House&mdash;a well-known Vancouver event venue&mdash;was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.

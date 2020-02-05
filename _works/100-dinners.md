@@ -22,7 +22,7 @@ tags: []
 
 {::options parse_block_html="true" /}
 <div class="callout summary bottom-margin">
-## Brief Summary
+## Summary
 In 2017, I assisted in the development of a new alumni engagement program as part of my employment with *alumni UBC*.
 
 My work included **synthesis of research, service design, and design of the program's website.**
@@ -30,7 +30,7 @@ My work included **synthesis of research, service design, and design of the prog
 The program was highly successful, reaching **115% of its engagement target.**
 </div>
 
-## Overview
+## Project overview
 
 ### The problem
 In 2017, the UBC Alumni Association (aka *alumni UBC*) launched *alumni UBC 100*, a year-long constituent engagement campaign to mark its 100th anniversary. One of the campaign’s major initiatives was 100 Dinners, a newly-created program to help facilitate dinner parties hosted by UBC alumni around the world.
