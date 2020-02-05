@@ -20,21 +20,31 @@ tags: []
   }
 </style>
 
-### Overview
+{::options parse_block_html="true" /}
+<div class="callout summary bottom-margin">
+## Summary
+In 2017, I assisted in the development of a new alumni engagement program as part of my employment with *alumni UBC*.
 
-#### The problem
+My work included **synthesis of research, service design, and design of the program's website.**
+
+The program was highly successful, reaching **115% of its engagement target.**
+</div>
+
+## Overview
+
+### The problem
 In 2017, the UBC Alumni Association (aka *alumni UBC*) launched *alumni UBC 100*, a year-long constituent engagement campaign to mark its 100th anniversary. One of the campaign’s major initiatives was 100 Dinners, a newly-created program to help facilitate dinner parties hosted by UBC alumni around the world.
 
 With a limited budget and minimal staff resources for operation, however, **the project team was challenged with creating a lean service model,** including a central microsite that would require little ongoing maintenance.
 
-#### Our approach
+### Our approach
 
 Our solution was informed through a combination of discussions with potential participants and extensive dialogue with staff at another organization that ran a similar program. By **reducing the service to only its essential parts and leveraging automation wherever possible,** we established a model that met core business and user needs with little operational overhead.
 
 ### My Role
 Working with a team of two *alumni UBC* events staff, I helped to evaluate and synthesize pre-existing research, consult with stakeholders on business requirements, and devise an blueprint for efficient service delivery. I then designed a lightweight microsite for the program within the *alumni UBC* brand and assisted IT Services in its development and launch.
 
-##### Main areas of responsibility:
+#### Main areas of responsibility:
 * Research (evaluate and synthesize)
 * Service design (map out processes for touchpoints across the program ecosystem)
 * Prototyping and usability testing

@@ -3,7 +3,7 @@
 //----------------------------------------------
 .callout {
 
-  &.left-highlight {
+  &.left-highlight, &.summary {
     padding-left: .7em;
 
     &.red {
@@ -39,4 +39,24 @@
     margin-bottom: 1.5em;
   }
 
+  &.summary {
+   background: $color-mediumgrey;
+   width: 105%;
+   border-radius: 8px;
+   padding: 1.5em 1em;
+
+
+   &.bottom-margin {
+     margin-bottom: 2em;
+
+     @media (min-width: $mq-small) {
+       margin-bottom: 3em;
+     }
+
+     @media (min-width: $mq-xlarge) {
+       margin-bottom: 4em;
+     }
+
+   }
+  }
 }

@@ -24,13 +24,23 @@ tags:
   }
 </style>
 
-### Overview
+{::options parse_block_html="true" /}
+<div class="callout summary bottom-margin">
+## Summary
+In 2018, I led the creation of an updated identity for a well-known Vancouver event venue as part of my employment with *alumni UBC*.
 
-#### The problem
+My work included **business analysis, user research, branding, and design of a [new website](https://cecilgreenpark.ubc.ca).**
+
+These efforts have yielded significant improvements on several key metrics, including a **60% year-over-year increase in online lead generation.**
+</div>
+
+## Overview
+
+### The problem
 Cecil Green Park House&mdash;a well-known Vancouver event venue&mdash;was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
 
-#### Our approach
-While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to **clarify the venue's business goals, brand identity, target audiences, and local competition.**
+### Our approach
+While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to **elicit and prioritize the venue's business goals, clarify brand identity, define its target audiences, and research local competition.**
 
 Then, using a human-centered design approach and validating assumptions wherever possible, I undertook **design of a new website and a fully-reimagined online booking process.**
 
@@ -40,7 +50,7 @@ I worked on this project as **researcher, lead designer,** and **manager** as pa
 
 #### Main areas of responsibility:
 
-* Research (business requirements, personas, user flows, heuristic analysis)
+* Research (business requirements, competitive assessments, personas, user flows, heuristic analysis)
 * Wireframing & Prototyping
 * Usability testing
 * Design (information architecture, branding, and website)

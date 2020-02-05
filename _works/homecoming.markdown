@@ -21,12 +21,22 @@ tags: []
   }
 </style>
 
-### Overview
+{::options parse_block_html="true" /}
+<div class="callout summary bottom-margin">
+## Summary
+In 2019, I led redesign of the [UBC Homecoming microsite](https://homecoming.ubc.ca) as part of my employment with *alumni UBC*.
 
-#### The problem
+My work included **business analysis, UX design, usability testing, and front-end development.**
+
+The **original event budget included $30,000** for external design and development resources for this project. Instead, I was able to complete it entirely in-house at **zero additional cost.**
+</div>
+
+## Overview
+
+### The problem
 User and business stakeholder feedback indicated that previous versions of the UBC Homecoming microsite were failing to meet the needs of either group. Users expressed that they faced **difficulty finding and navigating the site's most critical content;** stakeholders reported that **the site's architecture prevented effective promotion of individual Homecoming events.**
 
-#### Our approach
+### Our approach
 In conjunction with the Homecoming project manager, I worked to **identify core business needs** and **synthesize feedback** gathered after previous years' Homecoming festivities.  
 
 We ultimately chose to focus on **redesigning three key areas with high potential for impact:**
@@ -190,7 +200,9 @@ Without the ability to create new WordPress templates or modify existing ones--a
 
 This involved finding ways to inject HTML and CSS into pages, as well as using JavaScript and jQuery to modify the Document Object Model (DOM) output from WordPress plugins as needed.
 
-{::comment}
 ## Outcomes
-Uhhhhhhh.....
-{:/comment}
+{: .portfolio-item .section-title}
+
+<div class="callout left-highlight green">
+The **original event budget included $30,000** for external design and development resources for this project. Instead, I was able to complete it entirely in-house at **zero additional cost.**
+</div>
