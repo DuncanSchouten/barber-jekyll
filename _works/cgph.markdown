@@ -71,6 +71,9 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 Since launch, the new site has seen a **60% increase in online booking inquiries** compared to the same time period in the previous year.
 
+### Link to live site
+[https://cecilgreenpark.ubc.ca](https://cecilgreenpark.ubc.ca)
+
 
 ## Research and Discovery
 {: .portfolio-item .section-title}

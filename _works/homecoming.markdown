@@ -70,11 +70,12 @@ TO BE COMPLETED.
 </div>
 {:/comment}
 
-{::comment}
 ### Outcomes
 
-Uhhhhhhh......
-{:/comment}
+The **original event budget included $30,000** for external design and development resources for this project. Instead, I was able to complete it entirely in-house at **zero additional cost.**
+
+### Link to live site
+[https://homecoming.ubc.ca](https://homecoming.ubc.ca)
 
 ## Research and Discovery
 {: .portfolio-item .section-title}
