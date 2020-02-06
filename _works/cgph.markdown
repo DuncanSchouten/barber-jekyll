@@ -69,7 +69,7 @@ Nonetheless, I incorporated as much research and testing into my process as was 
 
 ### Outcomes
 
-Since launch, the new site has seen a **60% increase in online booking inquiries** compared to the same time period in the previous year.
+Since launch, the new site has seen a **60% year-over-year increase in online booking inquiries**.
 
 ### Link to live site
 [https://cecilgreenpark.ubc.ca](https://cecilgreenpark.ubc.ca)
@@ -128,7 +128,7 @@ This flowed naturally into a workshop with staff and stakeholders where we defin
 
 ### Journey maps
 
-For our main personas, we also developed provisional journey maps. These helped to identify opportunities to improve customer experience, both within the new website and on a broader scale:
+For our main personas, we also developed provisional journey maps. These helped to **identify opportunities to improve customer experience,** both within the new website and on a broader scale:
 
 ![Provisional journey map](/uploads/CGPH-Provisional-Journey-Map-min.png)
 {: data-aos="fade-in"}
