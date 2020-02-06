@@ -25,9 +25,9 @@ tags: []
 ## Summary
 In 2017, I assisted in the development of a new alumni engagement program as part of my employment with *alumni UBC*.
 
-My work included **synthesis of research, service design, and design of the program's website.**
+My work included **synthesis of research, service design,** and **design of the program's website.**
 
-The program was highly successful, reaching **115% of its engagement target.**
+The program was highly successful, reaching **115% of its engagement target of 1,000 participants.**
 </div>
 
 ## Project overview

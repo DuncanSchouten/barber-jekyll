@@ -29,7 +29,7 @@ tags:
 ## Summary
 In 2018, I led the creation of an updated identity for a well-known Vancouver event venue as part of my employment with *alumni UBC*.
 
-My work included **business analysis, user research, branding, and design of a [new website](https://cecilgreenpark.ubc.ca).**
+My work included **business analysis, user research, branding,** and **design of a [new website](https://cecilgreenpark.ubc.ca).**
 
 These efforts have yielded significant improvements on several key metrics, including a **60% year-over-year increase in online lead generation.**
 </div>

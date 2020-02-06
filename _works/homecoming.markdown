@@ -26,7 +26,7 @@ tags: []
 ## Summary
 In 2019, I led redesign of the [UBC Homecoming microsite](https://homecoming.ubc.ca) as part of my employment with *alumni UBC*.
 
-My work included **business analysis, UX design, usability testing, and front-end development.**
+My work included **business analysis, UX design, usability testing,** and **front-end development.**
 
 The **original event budget included $30,000** for external design and development resources for this project. Instead, I was able to complete it entirely in-house at **zero additional cost.**
 </div>
