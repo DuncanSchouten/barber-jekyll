@@ -1,7 +1,8 @@
 ---
 layout: portfolio-item
 title: Cecil Green Park House Brand Refresh
-description: Research, Branding, Design, Project Management
+description: In 2018, I led the creation of an updated identity for a well-known Vancouver event venue. My work included business analysis, user research, branding, and design of a new website.
+duties: Research, Branding, Design, Project Management
 author: Duncan Schouten
 date: 2018-11-01 00:00:00 +0000
 sort-order: 0
@@ -318,7 +319,7 @@ To accommodate this, I revised my design to indicate dates with holds using cros
 
 #### Usability testing
 
-I took a prototype of this design to several individuals for “guerilla” usability testing, asking them to perform several tasks and answer questions on the system’s functionality.
+I took a prototype of this design to several individuals for “guerrilla” usability testing, asking them to perform several tasks and answer questions on the system’s functionality.
 
 #### Among the results, I found that:
 * Requiring users to first select a date before learning the availability of their preferred time slot added cognitive load to the process, particularly for those on mobile devices.
@@ -327,7 +328,7 @@ I took a prototype of this design to several individuals for “guerilla” usab
 #### Third iteration and validation
 With this information, I revised my design to include complete details on each day’s booking availability using only solid, contrasting colours to ensure accessibility.
 
-After conducting another round of guerilla testing, **no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.**
+After conducting another round of guerrilla testing, **no users reported any of the previously-encountered problems, and all were able to complete the instructed tasks.**
 
 ![Booking calendar date picker v3](/uploads/CGPH-booking-request_mockup_886x1732-min.png){:width="300" data-aos="fade-in"}
 

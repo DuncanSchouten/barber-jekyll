@@ -1,7 +1,8 @@
 ---
 layout: portfolio-item
 title: UBC Homecoming 2019 Microsite
-description: Research, Design, Development
+description: In 2019, I led redesign of the UBC Homecoming microsite. My work included business analysis, UX design, usability testing, and front-end development.
+duties: Research, Design, Development
 author: Duncan Schouten
 date: 2020-01-26 00:00:00 +0000
 sort-order: 2
@@ -169,7 +170,7 @@ Although I was correct in my assumption that few issues emerged through testing,
 1. Ability to filter both the schedule and interactive map by event category and time of day
 2. Indicate the shuttle bus’ direction of travel
 
-![Getting Around - Interactive map after usability testing](/uploads/Homecoming__Post-Testing-Getting-Around-Map.png#full)
+![Getting Around - Interactive map after usability testing](/uploads/Homecoming__Post-Testing-Getting-Around-Map-With-Labels.png#full)
 {: data-aos="fade-in"}
 
 

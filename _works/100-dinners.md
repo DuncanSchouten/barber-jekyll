@@ -1,7 +1,8 @@
 ---
 layout: portfolio-item
 title: 100 Dinners Program Design
-description: Research, Service Design, UX Design
+description: In 2017, I assisted in the development of a new alumni engagement program for UBC. My work included research, service design, and design of the program's website.
+duties: Research, Service Design, UX Design
 author: Duncan Schouten
 date: 2018-11-02 00:00:00 +0000
 sort-order: 1
@@ -39,10 +40,10 @@ With a limited budget and minimal staff resources for operation, however, **the 
 
 ### Our approach
 
-Our solution was informed through a combination of discussions with potential participants and extensive dialogue with staff at another organization that ran a similar program. By **reducing the service to only its essential parts and leveraging automation wherever possible,** we established a model that met core business and user needs with little operational overhead.
+Our solution was informed through a combination of discussions with potential participants and extensive dialogue with staff at another organization that ran a similar program. By **reducing the service to only its essential parts** and **leveraging automation wherever possible,** we established a model that met core business and user needs with little operational overhead.
 
 ### My role
-Working with a team of two *alumni UBC* events staff, I helped to evaluate and synthesize pre-existing research, consult with stakeholders on business requirements, and devise an blueprint for efficient service delivery. I then designed a lightweight microsite for the program within the *alumni UBC* brand and assisted IT Services in its development and launch.
+Working with a team of two *alumni UBC* events staff, I helped to **evaluate and synthesize pre-existing research, consult with stakeholders on business requirements,** and **devise an blueprint for efficient service delivery.** I then **designed a lightweight microsite** for the program within the *alumni UBC* brand and assisted IT Services in its development and launch.
 
 #### Main areas of responsibility:
 * Research (evaluate and synthesize)
@@ -106,7 +107,7 @@ Our approach included:
 * Incentivizing post-event reporting and photo submission with a prize giveaway, as well as providing an online form to ease the process
 
 ### Service blueprint
-We developed a detailed service blueprint over several iterations (seen above), giving a clear overview of staff requirements and operational processes.
+We developed a detailed service blueprint over several iterations (seen above), giving a clear **overview of staff requirements** and **operational processes.**
 
 
 
@@ -158,9 +159,9 @@ Unfortunately, ePly did not provide an API for pushing data. This meant that whi
 
 ### Usability testing
 
-The simplicity of the website meant that **few problems were encountered when we engaged people for "guerilla" usability testing.**
+The simplicity of the website meant that **few problems were encountered when we engaged people for "guerrilla" usability testing.**
 
-The one area that was improved based on user feedback was the inclusion of a dropdown on the page of dinner listings, allowing users to filter by region. This feature was implemented before launch.
+The singular area that was improved based on user feedback was the inclusion of a dropdown on the page of dinner listings, allowing users to filter by region. This feature was implemented before launch.
 
 <!-- * Need for a country/region filter -->
 
