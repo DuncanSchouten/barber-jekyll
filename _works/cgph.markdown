@@ -40,13 +40,13 @@ These efforts have yielded significant improvements on several key metrics, incl
 Cecil Green Park House&mdash;a well-known Vancouver event venue&mdash;was facing a multi-year decline in revenues. With an outdated website and a poorly-defined brand identity, however, the venue was experiencing high page abandonment rates, and stakeholders were reluctant to invest in new marketing initiatives to drive traffic to the existing site.
 
 ### Our approach
-While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to **elicit and prioritize the venue's business goals, clarify brand identity, define its target audiences, and research local competition.**
+While the project initially began as a visual refresh of the original website, it quickly became clear that a broader scope was needed to fully address the underlying business challenges. Working with multiple stakeholders, I helped to **elicit and prioritize the venue's business goals, clarify brand identity, define its target audiences,** and **research local competition.**
 
-Then, using a human-centered design approach and validating assumptions wherever possible, I undertook **design of a new website and a fully-reimagined online booking process.**
+Then, using a human-centered design approach and validating assumptions wherever possible, I undertook **design of a new website** and a **fully-reimagined online booking process.**
 
 ### My role
 
-I worked on this project as **researcher, lead designer,** and **manager** as part of my employment with *alumni UBC.*
+I worked on this project as **researcher, lead designer,** and **project manager** as part of my employment with *alumni UBC.*
 
 #### Main areas of responsibility:
 

@@ -44,7 +44,7 @@ We ultimately chose to focus on **redesigning three key areas with high potentia
 2. Directory of events
 3. “Getting Around” page to facilitate guests’ experience on the day of the event   
 
-Then, I worked with stakeholders to **define system features, investigated potential technical solutions, created wireframes and functional prototypes, and conducted usability testing.** Finally, working with a visual designer to provide assets, I **designed and developed the final product.**
+Then, I worked with stakeholders to **define system features, investigated potential technical solutions, created wireframes and functional prototypes,** and **conducted usability testing.** Finally, working with a visual designer to provide assets, I **designed and developed the final product.**
 
 ### My role
 
